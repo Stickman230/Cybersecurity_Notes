@@ -31,3 +31,39 @@ Entity Framework is Microsoft's ORM framework for .NET applications. It enable
 ## Active Record (Ruby on Rails)
 #ActiveRecord
 Active Record is the default ORM for Ruby on Rails applications. It follows the Active Record design pattern, which means that each table in a database corresponds to a class, and each row in the table corresponds to an instance of that class. Active Record simplifies database interactions by providing a rich set of methods for querying and manipulating data.
+
+---
+# Common ORM Operations (Create, Read, Update, Delete)
+
+ORM frameworks streamline common database operations, often referred to as CRUD operations:
+
+- **Create**: Creating new records in the database involves instantiating a new model object, setting its properties, and saving it to the database.
+
+```php
+use App\Models\User;
+
+// Create a new user
+$user = new User();
+$user->name = 'Admin';
+$user->email = 'admin@example.com';
+$user->password = bcrypt('password'); 
+$user->save();
+```
+
+This code creates a new user and saves it to the database. The save method prepares the entity for insertion and executes the SQL INSERT statement to add the new record to the users table. The `bcrypt()` function is used to securely hash the password before saving it.
+
+- **Read**: Reading records from the database involves retrieving data using various Eloquent methods.
+
+```php
+use App\Models\User;
+
+// Find a user by ID
+$user = User::find(1);
+
+// Find all users
+$allUsers = User::all();
+
+// Find users by specific criteria
+$admins = User::where('email', 'admin@example.com')->get();
+```
+
