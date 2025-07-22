@@ -13,11 +13,11 @@ Several ORM frameworks are widely used in the development community, each cate
 
 ## Doctrine (PHP)
 #Doctrine
-Doctrine is a powerful and flexible ORM framework for PHP. It is particularly popular in the Symfony framework but can be used independently. Doctrine provides a comprehensive set of tools for database interactions, including a query builder, schema management, and an object-oriented query language. Its ability to map complex object structures to database schemas makes it a favourite among PHP developers.
+Doctrine is a powerful and flexible ORM framework for PHP. It is particularly popular in the Symfony framework but can be used independently. Doctrine provides a comprehensive set of tools for database interactions, including a query builder, schema management, and an object-oriented query language. Its ability to map complex object structures to database schemas makes it a favorite among PHP developers.
 
 ## Hibernate (Java)
 #Hibernate
-Hibernate is a robust and mature ORM framework for Java applications. It simplifies the mapping of Java classes to database tables and provides powerful data retrieval and manipulation capabilities through its Hibernate Query Language (HQL). Hibernate supports various database management systems and is known for its performance optimisation features, such as caching and lazy loading.
+Hibernate is a robust and mature ORM framework for Java applications. It simplifies the mapping of Java classes to database tables and provides powerful data retrieval and manipulation capabilities through its Hibernate Query Language (HQL). Hibernate supports various database management systems and is known for its performance optimization features, such as caching and lazy loading.
 
 ## SQLAlchemy (Python)
 #SQLAlchemy
