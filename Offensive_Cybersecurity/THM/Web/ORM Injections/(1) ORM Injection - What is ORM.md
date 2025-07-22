@@ -67,3 +67,5 @@ $allUsers = User::all();
 $admins = User::where('email', 'admin@example.com')->get();
 ```
 
+
+[[(2) ORM Injection - Detection & Exploitation|Continue to Detection & Exploitation]]
