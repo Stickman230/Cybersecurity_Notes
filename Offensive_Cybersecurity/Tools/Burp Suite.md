@@ -23,5 +23,3 @@
 
 ---
 
-### **FoxyProxy Configuration**
-
