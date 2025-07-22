@@ -16,16 +16,21 @@ netsh wlan show networks mode=bssid
 
 # PC HEALTH STATUS
 
-##
-dism /online /cleanup-image /checkhealth 
-#(run at an administrative command prompt or in an administrative PowerShell session)
+## Basic Health check
+```powershell
+dism /online /cleanup-image /checkhealth
+``` 
+- Run as an administrative command prompt or in an administrative PowerShell session
 
-#if this command finds anything to report, run 
+#### If above command finds anything to report, run to clean things up
+```powershell
 dism /online /cleanup-image /restorehealth 
-#to clean things up
+```
 
-## Other scan 
+## Other health scan 
+```powershell
 sfc /scannow
+```
 
 ## Check performance reliability 
 ``` powershell
