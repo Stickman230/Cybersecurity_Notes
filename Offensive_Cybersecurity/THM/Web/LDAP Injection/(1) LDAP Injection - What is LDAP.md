@@ -3,9 +3,9 @@
 LDAP stands for **Lightweight Directory Access Protocol**, is a widely used protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network. *LDAP enables organizations to manage users centrally*, as well as groups and other directory information, often *used for authentication and authorization purposes* in web and internal applications.
 
 **Services that use LDAP**:
-- **Microsoft Active Directory:** A service for Windows domain networks, utilizing LDAP as part of its underlying protocol suite to manage domain resources.
+- #MicrosoftActiveDirectory: A service for Windows domain networks, utilizing LDAP as part of its underlying protocol suite to manage domain resources.
 
-- **OpenLDAP:** An open-source implementation of LDAP, widely used for managing user information and supporting authentication mechanisms across various platforms.
+- #OpenLDAP: An open-source implementation of LDAP, widely used for managing user information and supporting authentication mechanisms across various platforms.
 
 ## Structure
 
@@ -69,7 +69,7 @@ This filter applies the wildcard operator to match any entry where the `cn` begi
 This filter searches for entries classified as "user" in their object class with a canonical name starting with either "John" or "Jane".
 
 
-
+[[(2) LDAP Injection - Detection & Exploitation |Continue to Detection & Exploitation]]
 
 ---
 #### Definitions
