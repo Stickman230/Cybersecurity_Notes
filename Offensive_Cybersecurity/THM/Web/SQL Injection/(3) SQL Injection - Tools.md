@@ -1,6 +1,6 @@
 #SQL #WebInjection 
 
-# SQLMap
+# SQLMap **$
 
 -  [SQLMap](https://github.com/sqlmapproject/sqlmap) is an open-source tool that automates the process of detecting and exploiting SQL Injection vulnerabilities in web applications. It supports a wide range of databases and provides extensive options for both identification and exploitation. 
 # SQLNinja
