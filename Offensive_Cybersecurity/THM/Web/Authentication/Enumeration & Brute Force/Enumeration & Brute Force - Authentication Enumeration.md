@@ -1,18 +1,17 @@
 #Authentication #Enumeration 
 # Authentication Enumeration
 
+Authentication enumeration is like peeling back the layers of an onion. You *remove each layer of a system's security to reveal the real operations* underneath. 
 
-Think of yourself as a digital detective. It's not just about picking up clues—it's about understanding what these clues reveal about the security of a system. This is essentially what authentication enumeration involves. It's like piecing together a puzzle rather than just ticking off items on a checklist.
+## Identifying Valid Usernames
 
-Authentication enumeration is like peeling back the layers of an onion. You remove each layer of a system's security to reveal the real operations underneath. It's not just about routine checks; it's about seeing how everything is connected.
+Observing how the application responds during login or password resets. 
+- An error messages that specify "this account doesn't exist" or "incorrect password" can hint at valid usernames, making an attacker's job easier.
 
-**Identifying Valid Usernames**
+## Password Policies
 
-Knowing a valid username lets an attacker focus just on the password. You can figure out usernames in different ways, like observing how the application responds during login or password resets. For example, error messages that specify "this account doesn't exist" or "incorrect password" can hint at valid usernames, making an attacker's job easier.
-
-**Password Policies**
-
-The guidelines when creating passwords can provide valuable insights into the complexity of the passwords used in an application. By understanding these policies, an attacker can gauge the potential complexity of the passwords and tailor their strategy accordingly. For example, the below PHP code uses regex to require a password that includes symbols, numbers, and uppercase letters:
+Understanding these policies,  can gauge the potential complexity of the passwords and tailor their strategy accordingly.
+- The below PHP code uses regex to require a password that includes symbols, numbers, and uppercase letters:
 
 ```php
 <?php
@@ -29,7 +28,7 @@ if (preg_match($pattern, $password)) {
 
 In the above example, if the supplied password doesn't satisfy the policy defined in the **pattern** variable, the application will return an error message revealing the regex code requirement. An attacker might generate a dictionary that satisfies this policy.
 
-### Common Places to Enumerate
+# Common Places to Enumerate
 
 Web applications are full of features that make things easier for users but can also expose them to risks:
 
