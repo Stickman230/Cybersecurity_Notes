@@ -1,4 +1,4 @@
-#Authentication #Enumeration 
+#Authentication #Enumeration #WEB  #WebAuthentication
 # Authentication Enumeration
 
 Authentication enumeration is like peeling back the layers of an onion. You *remove each layer of a system's security to reveal the real operations* underneath. 
@@ -40,7 +40,7 @@ The application will return an error message revealing the regex code requiremen
 
  These messages differentiate between "username not found" and "incorrect password"
  - Definitive clues about valid usernames, which can be exploited for more targeted attacks.
-[[]]
+[[(2) Enumeration & Brute Force - Verbose Errors|See verbose errors for User Enumeration]]
 
 ## Data Breach Information
 
