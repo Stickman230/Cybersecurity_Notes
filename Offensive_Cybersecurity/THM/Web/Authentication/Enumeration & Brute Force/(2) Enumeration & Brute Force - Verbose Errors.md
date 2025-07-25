@@ -4,7 +4,7 @@
 1. **Invalid Login Attempts**: intentionally entering incorrect usernames or passwords, attackers can trigger error messages that help distinguish between valid and invalid usernames.
 - Entering a username that doesn’t exist might trigger a different error message than entering one that does, revealing which usernames are active.
 
-2. **SQL Injection**: slipping malicious SQL commands into entry fields
+1. **SQL Injection**: slipping malicious #SQL commands into entry fields
  - placing a single quote ( `'`) in a login field might cause the database to throw an error, inadvertently exposing details about its schema.
 
 1. **File Inclusion/Path Traversal**: By manipulating file paths, attackers can attempt to access restricted files, coaxing the system into errors that reveal internal paths. 
