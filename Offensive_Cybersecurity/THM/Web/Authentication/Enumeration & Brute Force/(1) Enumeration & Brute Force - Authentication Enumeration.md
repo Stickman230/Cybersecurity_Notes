@@ -46,3 +46,10 @@ The application will return an error message revealing the regex code requiremen
 
 Data from previous security breaches is a goldmine for attackers as it allows them to test whether compromised usernames and passwords are reused across different platforms. 
 - Exploit username is reused but also potential password recycling
+
+# HTTP Authentication Header 
+
+- HTTP Basic Authentication is defined in [RFC 7617](https://datatracker.ietf.org/doc/html/rfc7617).
+- It specifies that the credentials (username and password) should be transported as a base64-encoded string within the HTTP Authorization header.
+
+This method is straightforward but not secure over non-HTTPS connections, as base64 is not an encryption method and can be easily decoded. The real threat often comes from **weak credentials that can be brute-forced.**
