@@ -1,4 +1,4 @@
-#SQL #WebInjection 
+#SQL #WebInjection  #WEB
 
 # SQLMap **$
 

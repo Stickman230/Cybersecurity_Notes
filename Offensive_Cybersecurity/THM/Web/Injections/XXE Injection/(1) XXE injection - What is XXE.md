@@ -1,4 +1,4 @@
-#XXE #XML #WebInjection
+#XXE #XML #WebInjection #WEB
 # Introduction
 
 ***XML (Extensible Markup Language)*** is a markup language derived from SGML, which is the same standard that HTML is based on. 

@@ -1,4 +1,4 @@
-#SSTI #WebInjection
+#SSTI #WebInjection #WEB
 ## SSTImap
 
 - #SSTImap is a tool that automates the process of testing and exploiting SSTI vulnerabilities in various template engines. Hosted on [GitHub](https://github.com/vladko312/SSTImap), it provides a framework for discovering template injection flaws

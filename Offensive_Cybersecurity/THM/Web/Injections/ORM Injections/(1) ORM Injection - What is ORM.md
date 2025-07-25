@@ -1,4 +1,4 @@
-#ORM #SQL #WebInjection
+#ORM #SQL #WebInjection #WEB
 # Purpose
 
 ORM is a bridge between the object-oriented programming model and the database. The primary purpose of an ORM is to allow developers to work with objects rather than tables and rows :

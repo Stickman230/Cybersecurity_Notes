@@ -15,3 +15,5 @@
 
 1. **Application Fuzzing**: Sending unexpected inputs to various parts of the application to see how it reacts can help identify weak points
 - eg. Burp Suite Intruder 
+
+[[(3) Enumeration & Brute Force - Password Reset Exploitation|Next we can exploit vulnerable password reset mechanisms]]
