@@ -27,6 +27,7 @@ The HTTP protocol is inherently **stateless**. Sessions are, therefore, used to 
 ---
 
 # IAAA Model
+#IAAA
 
 ### Identification
 
@@ -40,10 +41,20 @@ The HTTP protocol is inherently **stateless**. Sessions are, therefore, used to 
 - For example, you can supply the password associated with the claimed username.  
 ( *This is the point where session creation would kick in.*  )
 
-### Authorisation
+### Authorization
 
-Authorisation is the process of ensuring that the specific user has the rights required to perform the action requested. For example, while all users may view data, only a select few may modify it. In the session management lifecycle, session tracking plays a critical role in authorisation.  
+**Authorization is the process of ensuring that the specific user has the rights required to perform the action requested. **
+- For example, while all users may view data, only a select few may modify it. 
+( *Session tracking plays a critical role in authorization.* )
 
 ### Accountability
 
-Accountability is the process of creating a record of the actions performed by users. We should track the user's session and log all actions performed using the specific session. This information plays a critical role in the event of a security incident to piece together what has happened.
+**Accountability is the process of creating a record of the actions performed by users. **
+- We should track the user's session and log all actions performed using the specific session. 
+
+---
+# Cookies vs Tokens
+
+---
+
+[[(2) Session Management - Detection & Exploitation|Go to Session management - Detection & Exploitation]]
