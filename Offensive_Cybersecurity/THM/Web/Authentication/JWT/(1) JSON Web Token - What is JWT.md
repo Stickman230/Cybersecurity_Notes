@@ -21,10 +21,10 @@ They are passed through the `Authorization: Bearer` header. However, as we are n
 
 ## Signing Algorithms
 
-3 Main Algorithms standard for JS
+*3 Main Algorithms standard for JWT signature.*
 
-- **None** - The None algorithm means no algorithm is used for the signature. Effectively, this is a JWT without a signature, meaning that the verification of the claims provided in the JWT cannot be verified through the signature.
+- **None** - The None algorithm means no algorithm is used for the signature.
 
-- **Symmetric Signing** - A symmetric signing algorithm, such as HS256, creates the signature by appending a secret value to the header and body of the JWT before generating a hash value. Verification of the signature can be performed by any system that has knowledge of the secret key.
+- **Symmetric Signing** - A symmetric signing algorithm, *such as HS256*, creates the signature by appending a secret value to the header and body of the JWT before generating a hash value. Verification of the signature can be performed by any system that has knowledge of the secret key.
 
-- **Asymmetric Signing** - An asymmetric signing algorithm, such as RS256, creates the signature by using a private key to sign the header and body of the JWT. This is created by generating the hash and then encrypting the hash using the private key. Verification of the signature can be performed by any system that has knowledge of the public key associated with the private key that was used to create the signature.
+- **Asymmetric Signing** - An asymmetric signing algorithm, *such as RS256*, creates the signature by using a private key to sign the header and body of the JWT. This is created by generating the hash and then encrypting the hash using the private key. Verification of the signature can be performed by any system that has knowledge of the public key associated with the private key that was used to create the signature.
