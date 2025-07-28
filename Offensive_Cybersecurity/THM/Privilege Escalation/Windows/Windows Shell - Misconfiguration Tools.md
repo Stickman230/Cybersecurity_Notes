@@ -1,4 +1,4 @@
-
+#
 ## WinPEAS 
 
 - WinPEAS is a script developed to enumerate the target system to uncover privilege escalation paths. You can find more information about winPEAS and download either the precompiled executable or a .bat script.
