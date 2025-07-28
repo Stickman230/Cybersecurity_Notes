@@ -56,6 +56,8 @@ The HTTP protocol is inherently **stateless**. Sessions are, therefore, used to 
 # Cookies vs Tokens
 
 ## Cookies
+#Cookies
+
 `Set-Cookie: session=12345;`  
 
 Your browser will create a cookie entry for a cookie named `session` with a value of `12345` which will be valid for the domain where the cookie was received from.
