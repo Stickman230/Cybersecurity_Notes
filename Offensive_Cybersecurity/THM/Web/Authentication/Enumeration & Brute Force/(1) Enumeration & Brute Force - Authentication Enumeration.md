@@ -1,4 +1,4 @@
-#Authentication #Enumeration #WEB  #WebAuthentication
+#Authentication #Enumeration #WEB #WebAuthentication
 # Authentication Enumeration
 
 Authentication enumeration is like peeling back the layers of an onion. You *remove each layer of a system's security to reveal the real operations* underneath. 

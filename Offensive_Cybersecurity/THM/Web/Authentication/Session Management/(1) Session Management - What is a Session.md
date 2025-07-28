@@ -23,3 +23,27 @@ The HTTP protocol is inherently **stateless**. Sessions are, therefore, used to 
 - if the user perform a logout action the web application should terminate the user's session.
 - While this is similar to session expiry, it is unique in the sense that even if the session's lifetime is still valid, the session itself should be terminated.
 ( Issues in this termination process could allow a threat actor to gain persistent access to an account. )
+
+---
+
+# IAAA Model
+
+### Identification
+
+**Identification is the process of verifying who the user is.**
+- This starts with the user claiming to be a specific identity. In most web applications, this is performed by submitting your username.
+
+### Authentication
+
+**Authentication is the process of ensuring that the user is who they say they are.**
+- Where in identification, you provide a username, for authentication, you provide proof that you are who you say you are.
+- For example, you can supply the password associated with the claimed username.  
+( *This is the point where session creation would kick in.*  )
+
+### Authorisation
+
+Authorisation is the process of ensuring that the specific user has the rights required to perform the action requested. For example, while all users may view data, only a select few may modify it. In the session management lifecycle, session tracking plays a critical role in authorisation.  
+
+### Accountability
+
+Accountability is the process of creating a record of the actions performed by users. We should track the user's session and log all actions performed using the specific session. This information plays a critical role in the event of a security incident to piece together what has happened.
