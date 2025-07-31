@@ -7,6 +7,7 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 # Key Concepts
 
 ## Entities
+
 #### Resource Owner
 
 -  **Person** or **system** that controls certain data and can authorize an application to access that data on their behalf. 
@@ -48,15 +49,19 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 
 #### Redirect URI
 
-- The URI to which the authorization server will redirect the resource owner’s user-agent after the grant or denial of the authorization. It checks if the client for which the authorization response has been requested is correct. For instance, after interacting with the coffee shop app and logging in, you will be redirected to the authorization server by the app page in the coffee shop’s app, commonly known as the redirect URI, to confirm that you successfully logged in.
+- The URI to which the authorization server will **redirect the resource owner’s user-agent** after the grant or denial of the authorization. 
 
 #### Scope
 
-Scopes are a mechanism for limiting an application's access to a user's account. They allow the client to specify the level of access needed and the authorization server to inform the user what access levels the application is requesting. Scopes help enforce the `principle of least privilege`. For example, the coffee shop's app may request different scopes, such as access to your order history and payment details. As the resource owner, you can see what information the app requests access to and grant or deny permissions.  
+- Scopes are a **mechanism for limiting an application's access** to a user's account. 
+- Scopes help enforce the `principle of least privilege`. 
+- For example, the coffee shop's app may request different scopes, such as access to your order history and payment details. As the resource owner, you can see what information the app requests access to and grant or deny permissions.  
 
 #### State Parameter  
 
-An **optional** parameter maintains the state between the client and the authorization server. It can help prevent CSRF attacks by ensuring the response matches the client's request. The state parameter is a crucial part of securing the OAuth flow. For example, when you initiate the login process, the coffee shop's app sends a state parameter to the authorization server. This parameter helps ensure that the response you receive is linked to your original request, protecting against certain types of attacks.
+- An **optional** parameter maintains the state between the client and the authorization server.
+- It can ***help prevent*** #CSRF ***attacks*** by ensuring the response matches the client's request.
+- For example, when you initiate the login process, the coffee shop's app sends a state parameter to the authorization server. This parameter helps ensure that the response you receive is linked to your original request, protecting against certain types of attacks.
 
 #### Token & Authorization Endpoint
 
