@@ -8,7 +8,8 @@
 - *Something you are* 
 By using these layers, MFA makes it much tougher for threat actors to access user accounts or applications.
 
-### Types of Authentication Factors
+---
+# Types of Authentication Factors
 
 MFA typically combines two or more different kinds of credentials from the categories
 
@@ -28,5 +29,24 @@ MFA typically combines two or more different kinds of credentials from the categ
 **Something You Do**
 - The application typically analyses the way the user types the credentials or moves their mouse, and this is also the most difficult to implement since the application requires a specific amount of processing power.
 
-*2FA specifically requires exactly two of these factors*. 
-So, while all 2FA is MFA, not all MFA is 2FA. .
+*2FA specifically requires exactly two of these factors*. So, while all 2FA is MFA, not all MFA is 2FA. .
+
+---
+# Conditional Access
+
+Conditional access is typically used by companies to adjust the authentication requirements based on different contexts. It's like a decision tree that triggers extra security checks depending on certain conditions. For example:
+
+**Location-Based**
+- If a user is logging in from a new or unfamiliar location, the system could ask for an additional OTP or even biometric verification.
+
+**Time-Based**
+-  if someone tries to access the system after working hours, they might be prompted for an extra layer of security, like an OTP or a security token.
+
+**Behavioral Analysis**
+- Suppose a user's behavior suddenly changes, like they began accessing data they don't usually view or access at odd hours. In that case, the system can ask for additional authentication to confirm it’s really them.  
+
+**Device-Specific**
+- In some cases, companies don’t allow employees to use their own devices to access corporate resources. In these situations, the system might block the user after the initial login step if they’re on an unapproved device.
+
+---
+[[(2) Multi-Factor Authentication - Detection & Exploitation|See MFA Detection & Exploitation]]
