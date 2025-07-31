@@ -28,3 +28,7 @@ They are passed through the `Authorization: Bearer` header. However, as we are n
 - **Symmetric Signing** - A symmetric signing algorithm, *such as HS256*, creates the signature by appending a secret value to the header and body of the JWT before generating a hash value. Verification of the signature can be performed by any system that has knowledge of the secret key.
 
 - **Asymmetric Signing** - An asymmetric signing algorithm, *such as RS256*, creates the signature by using a private key to sign the header and body of the JWT. This is created by generating the hash and then encrypting the hash using the private key. Verification of the signature can be performed by any system that has knowledge of the public key associated with the private key that was used to create the signature.
+
+---
+
+[[(2) JSON Web Token - Detection & Exploitation|See JWT Detection & Exploitation]]
