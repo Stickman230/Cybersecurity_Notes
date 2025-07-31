@@ -35,6 +35,7 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 - The client uses a credential **representing the resource owner's authorization** to obtain an access token. 
 - The primary grant types are `Authorization Code`, `Implicit`, `Resource Owner Password Credentials`, and `Client Credentials`.
 - For example, when you first log in to the coffee shop's app, you are given an authorization grant (like entering your username and password). The app uses this grant to get an access token from the authorization server. We will discuss it in detail in the next task.
+[[(2) OAuth - Grant Types|More on that in OAuth Grant Types]]
 
 #### Access Token
 
@@ -65,6 +66,5 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 
 #### Token & Authorization Endpoint
 
-The authorization server's endpoint is where the client exchanges the authorization grant (or refresh token) for an access token. In contrast, the authorization endpoint is where the resource owner is authenticated and authorizes the client to access the protected resources.
-
-By familiarizing yourself with the topics, you will easily understand the exploitation techniques and associated vulnerabilities in the upcoming tasks.
+- The authorization server's endpoint is where the client exchanges the authorization grant (or refresh token) for an access token. 
+- In contrast, the authorization endpoint is where the resource owner is authenticated and authorizes the client to access the protected resources.
