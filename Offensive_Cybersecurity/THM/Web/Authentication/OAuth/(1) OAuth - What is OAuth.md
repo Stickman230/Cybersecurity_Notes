@@ -8,19 +8,24 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 
 #### Resource Owner
 
-The resource owner is the **person** or **system** that controls certain data and can authorize an application to access that data on their behalf. This concept is fundamental as it centres around user consent and control. For example, you are the resource owner as a coffee shop customer. You can control your account information and grant the coffee shop's mobile app permission to access your data.  
+-  **Person** or **system** that controls certain data and can authorize an application to access that data on their behalf. 
+- For example, you are the resource owner as a coffee shop customer. You can control your account information and grant the coffee shop's mobile app permission to access your data.  
 
 #### Client  
 
-The client can be a **mobile app** or a **server-side web application**. It acts as an intermediary, requesting access to resources and performing actions as permitted by the resource owner. For example, the coffee shop's web app, which you use to order and pay for coffee, is the client. Your authorization is needed to access your account details and payment information.
+- **Mobile app** or a **server-side web application**, acts as an intermediary, requesting access to resources and performing actions as permitted by the resource owner
+- For example, the coffee shop's web app, which you use to order and pay for coffee, is the client. Your authorization is needed to access your account details and payment information.
 
 #### Authorization Server
 
-The authorization server is responsible for **issuing access tokens to the client** after successfully authenticating the resource owner and obtaining their authorization. The authorization server plays a crucial role in the OAuth process by ensuring the client is granted permission only after legitimate user authentication and consent. For example, the coffee shop's backend system that handles authentication and authorization is the authorization server. It verifies your credentials and grants the web app permission to access your account.  
+- The authorization server is responsible for **issuing access tokens to the client** after successfully authenticating the resource owner and obtaining their authorization. 
+- For example, the coffee shop's backend system that handles authentication and authorization is the authorization server. It verifies your credentials and grants the web app permission to access your account.  
 
 #### Resource Server
 
-The server hosting the protected resources can **accept and respond** **to protected resource requests** using access tokens. This server ensures that only authenticated and authorized clients can access or manipulate the resource owner's data. For example, the resource server is the coffee shop's database that stores your account information, order history, and payment details. It responds to requests from the web app, allowing it to retrieve and modify your data.
+- The server can **accept and respond** **to protected resource requests** using access tokens. 
+- This server ensures that only authenticated and authorized clients can access or manipulate the resource owner's data.
+- For example, the resource server is the coffee shop's database that stores your account information, order history, and payment details. It responds to requests from the web app, allowing it to retrieve and modify your data.
 
 #### Authorization Grant
 
