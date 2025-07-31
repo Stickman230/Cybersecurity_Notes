@@ -8,4 +8,4 @@ SQL is a standard language for accessing and manipulating databases.
 
 ---
 
-[[See SQL injection ]]
+[[(2) SQL Injection - Detection & Exploitation|See SQL injection Detection and Exploitation]]
