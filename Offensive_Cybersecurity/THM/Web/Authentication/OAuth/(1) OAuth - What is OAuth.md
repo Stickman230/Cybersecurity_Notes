@@ -68,3 +68,7 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 
 - The authorization server's endpoint is where the client exchanges the authorization grant (or refresh token) for an access token. 
 - In contrast, the authorization endpoint is where the resource owner is authenticated and authorizes the client to access the protected resources.
+
+---
+
+[[(2) OAuth - Grant Types|See]]
