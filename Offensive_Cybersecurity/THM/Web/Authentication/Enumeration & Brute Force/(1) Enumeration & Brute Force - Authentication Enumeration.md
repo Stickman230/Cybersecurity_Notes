@@ -35,6 +35,7 @@ The application will return an error message revealing the regex code requiremen
  Differences in the application's response can unintentionally reveal sensitive information. For example, variations in an application's feedback about whether a username exists can help attackers verify user identities. 
  - refine their lists of valid usernames, 
  - substantially improving the effectiveness of subsequent attacks.
+[[(3) Enumeration & Brute Force - Password Reset Exploitation|See password reset exploitation]]
 
 ## Verbose Errors
 

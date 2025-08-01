@@ -71,4 +71,4 @@ When we talk about OAuth, we're talking about **OAuth 2.0**, the commonly used a
 
 ---
 
-[[(2) OAuth - Grant Types|See]]
+[[(3) OAuth - Detection & Exploitation|See OAuth Detection & Exploitation]]

@@ -51,3 +51,6 @@
 
 ![Client Credentials Grant sequence diagram](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/62a7685ca6e7ce005d3f3afe-1724170002373.png)  
 
+---
+
+[[(3) OAuth - Detection & Exploitation|See OAuth Detection & exploitation]]
