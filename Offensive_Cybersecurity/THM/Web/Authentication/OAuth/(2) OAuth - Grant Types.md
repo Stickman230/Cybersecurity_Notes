@@ -43,10 +43,11 @@
 ---
 # Client Credentials Grant  
 
-- The Client Credentials grant is used for server-to-server interactions without user involvement. The client uses his credentials to authenticate with the authorization server and obtain an access token. In this flow, the client authenticates with the authorization server using its client credentials (client ID and secret), and the authorization server issues an access token directly to the client, as shown below: 
-This grant type is suitable for backend services and server-to-server communication as it does not involve user credentials, thus reducing security risks related to user data exposure.
+- The Client Credentials grant is used for **server-to-server interactions without user involvement**.
 
-The next task will show how the OAuth flow works within a web application.
+- The client uses his credentials to authenticate with the authorization server and obtain an access token. In this flow, the client authenticates with the authorization server using its client credentials (client ID and secret), and the authorization server issues an access token directly to the client, as shown below: 
+
+- This grant type is **suitable for backend services and server-to-server communication** as it does not involve user credentials, thus reducing security risks related to user data exposure.
 
 ![Client Credentials Grant sequence diagram](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/62a7685ca6e7ce005d3f3afe-1724170002373.png)  
 
