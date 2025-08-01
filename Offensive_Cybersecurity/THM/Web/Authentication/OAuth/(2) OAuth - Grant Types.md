@@ -2,6 +2,7 @@
 # Authorization Code Grant  
 
 - *Most commonly used OAuth 2.0 flow*, suited for server-side applications (PHP, JAVA, .NET etc). 
+
 - In this flow, the **client redirects the user to the authorization server, where the user authenticates and grants authorization**. The authorization server then redirects the user to the client with an **authorization code**. The client exchanges the authorization code for an access token by requesting the authorization server's token endpoint. 
 
 - **Enhanced security**, as the authorization code is exchanged for an access token server-to-server, meaning the access token is not exposed to the user agent (e.g., browser), thus reducing the risk of token leakage.
@@ -11,7 +12,11 @@
 ---
 # Implicit Grant  
 
-The Implicit grant is primarily designed for mobile and web applications where clients cannot securely store secrets. It **directly issues the access token to the client without requiring an authorization code exchange**. In this flow, the client redirects the user to the authorization server. After the user authenticates and grants authorization, the authorization server returns an access **token in the URL fragment**. The complete flow is shown below:
+-  *Primarily designed for mobile and web applications where clients cannot securely store secrets*.
+
+- It **directly issues the access token to the client without requiring an authorization code exchange**. 
+
+- In this flow, the client redirects the user to the authorization server. After the user authenticates and grants authorization, the authorization server returns an access **token in the URL fragment**. The complete flow is shown below:
 
 ![Implicit Grant sequence diagram](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/62a7685ca6e7ce005d3f3afe-1724169868247.png)  
 
