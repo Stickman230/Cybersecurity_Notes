@@ -7,7 +7,7 @@
 | *whatweb*    | Annalise website technologies     |
 | *webhttrack* | Download website                  |
 | *whois*      | Query Domain database information |
-| dnsrecon     |                                   |
+| *dnsrecon*   | Give General DNS information      |
 |              |                                   |
 
 # What is Passive Information Gathering ?
@@ -58,7 +58,12 @@ Check all NS Records for Zone Transfers. Enumerate General DNS Records for a gi
 - NS : Name Server
 - A : IPV4
 - AAAA: IPV6
+- TXT: TXT records 
 
 Website :https://dnsdumpster.com/
 
-DNSdumpster is a *domain research tool* that can discover hosts related to a domain
+DNSdumpster is a *domain research tool* that can discover hosts related to a domain and give multiple publicly available info.
+
+---
+
+[[Active Recon|See Active recon ]]
