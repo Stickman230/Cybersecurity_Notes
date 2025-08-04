@@ -1,3 +1,8 @@
+#eJPT #INE #PassiveInformationGathering
+# What is Passive Information Gathering ?
+
+**Gathering information without actively engaging the target and using public resources (Whois, DNS Recon...)**
+
 # robots.txt and sitemap.xml 
 
 Both are important files used in *managing how search engines interact with a website*, but they serve different purposes:
