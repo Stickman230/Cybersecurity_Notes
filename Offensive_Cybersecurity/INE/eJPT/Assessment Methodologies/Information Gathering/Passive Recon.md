@@ -7,6 +7,7 @@
 | *whatweb*    | Annalise website technologies     |
 | *webhttrack* | Download website                  |
 | *whois*      | Query Domain database information |
+| dnsrecon     |                                   |
 |              |                                   |
 
 # What is Passive Information Gathering ?
@@ -35,14 +36,29 @@ Both are important files used in *managing how search engines interact with a we
 
 # Whois
 
+*Linux Command : Whois*
+
 **WHOIS** is a query and response protocol that is used for querying databases that store an internet resource's registered users or assignees. These resources include [domain names](https://en.wikipedia.org/wiki/Domain_name "Domain name"), [IP address](https://en.wikipedia.org/wiki/IP_address "IP address") blocks and [autonomous systems](https://en.wikipedia.org/wiki/Autonomous_system_\(Internet\) "Autonomous system (Internet)"),
 
 Can be used to retrieve domain expiry date, company name, username, region/country of registration...
 
 # Netcraft
 
-Collection of information to footprint a website and discover technologies, location, vulnerabilities...
+Collection of information to footprint a website and discover technologies, location, vulnerabilities, headers ...
 
 https://sitereport.netcraft.com/?url=URL_TO_SCAN
 
+# DNS 
 
+*Linux Command : dnsrecon*
+
+Check all NS Records for Zone Transfers. Enumerate General DNS Records for a given Domain (MX, SOA, NS, A, AAAA, SPF and TXT)
+
+- MX: Mail server
+- NS : Name Server
+- A : IPV4
+- AAAA: IPV6
+
+Website :https://dnsdumpster.com/
+
+DNSdumpster is a *domain research tool* that can discover hosts related to a domain
