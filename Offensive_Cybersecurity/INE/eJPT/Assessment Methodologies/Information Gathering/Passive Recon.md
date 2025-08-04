@@ -39,3 +39,10 @@ Both are important files used in *managing how search engines interact with a we
 
 Can be used to retrieve domain expiry date, company name, username, region/country of registration...
 
+# Netcraft
+
+Collection of information to footprint a website and discover technologies, location, vulnerabilities...
+
+https://sitereport.netcraft.com/?url=URL_TO_SCAN
+
+
