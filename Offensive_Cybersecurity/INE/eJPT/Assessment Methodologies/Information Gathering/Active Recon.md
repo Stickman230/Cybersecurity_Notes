@@ -1,11 +1,12 @@
 #eJPT #INE #ActiveInformationGathering
 
 
-| Command     | Function            |
-| ----------- | ------------------- |
-| *dnsenum*   | DNS zone transfer   |
-| *dig axfrf* | DNS lookup utility  |
-| *fierce*    | lightweight scanner |
+| COMMAND       | FUNCTION                    |
+| ------------- | --------------------------- |
+| *dnsenum*     | DNS zone transfer           |
+| *dig axfrf*   | DNS lookup utility          |
+| *fierce*      | lightweight scanner         |
+| *netdiscover* | Nmap but using ARP requests |
 
 # What is Active Information Gathering ?
 
@@ -27,7 +28,16 @@ DNS Zone Transfer on the other hand is :
 
 # Port scanning with Nmap
 
-[[]]
+[[Nmap|Nmap cheat sheet]]
+
+#### Timing Templates
+
+```python
+   -T0    -T1    -T2    -T3      -T4      -T5
+Paranoid|Sneaky|Polite|Normal|Aggressive|Insane|
+```
+
+
 ---
 
 [[Passive Recon|See passive recon]]

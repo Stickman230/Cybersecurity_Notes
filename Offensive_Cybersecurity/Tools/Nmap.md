@@ -1,6 +1,15 @@
 #Tools 
 ***You need to get root privileges for correct use***
 
+# Timing Templates
+
+```python
+   -T0    -T1    -T2    -T3      -T4      -T5
+Paranoid|Sneaky|Polite|Normal|Aggressive|Insane|
+```
+
+# Examples
+
 ##  TCP 3way handshake protocols on a network subnet
 ```bash
 nmap -sT 10.1.33.0/24
