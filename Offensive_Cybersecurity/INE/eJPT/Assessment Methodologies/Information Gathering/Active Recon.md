@@ -1,9 +1,11 @@
 #eJPT #INE #ActiveInformationGathering
 
 
-| Command   | Function          |
-| --------- | ----------------- |
-| *dnsenum* | DNS zone transfer |
+| Command     | Function            |
+| ----------- | ------------------- |
+| *dnsenum*   | DNS zone transfer   |
+| *dig axfrf* | DNS lookup utility  |
+| *fierce*    | lightweight scanner |
 
 # What is Active Information Gathering ?
 
@@ -23,8 +25,9 @@ DNS Zone Transfer on the other hand is :
 + A DNS Zone transfer can provide penetration testers with a holistic view of an organization's network layout.
 + Furthermore, in certain cases, internal network addresses may be found on an organization's DNS servers.
 
+# Port scanning with Nmap
 
-
+[[]]
 ---
 
 [[Passive Recon|See passive recon]]
