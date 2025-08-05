@@ -1,16 +1,16 @@
 #eJPT #INE #PassiveInformationGathering
 
 
-| COMMAND        | FUNTION                           |
-| -------------- | --------------------------------- |
-| *host*         | Host DNS lookup                   |
-| *whatweb*      | Annalise website technologies     |
-| *webhttrack*   | Download website                  |
-| *whois*        | Query Domain database information |
-| *dnsrecon*     | Give General DNS information      |
-| *wafw00f*      | Detect type of WAF                |
-| *sublist3r*    | Enumerate subdomains using OSINT  |
-| *theHarvester* | Fetch Public Info using OSINT     |
+| COMMAND                  | FUNTION                           |
+| ------------------------ | --------------------------------- |
+| *host*                   | Host DNS lookup                   |
+| *whatweb*                | Annalise website technologies     |
+| *webhttrack* & *httrack* | Download website                  |
+| *whois*                  | Query Domain database information |
+| *dnsrecon*               | Give General DNS information      |
+| *wafw00f*                | Detect type of WAF                |
+| *sublist3r*              | Enumerate subdomains using OSINT  |
+| *theHarvester*           | Fetch Public Info using OSINT     |
 
 # What is Passive Information Gathering ?
 

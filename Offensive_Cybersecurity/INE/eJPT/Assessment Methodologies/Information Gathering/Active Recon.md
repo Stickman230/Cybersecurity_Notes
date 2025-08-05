@@ -1,12 +1,13 @@
 #eJPT #INE #ActiveInformationGathering
 
 
-| COMMAND       | FUNCTION                    |
-| ------------- | --------------------------- |
-| *dnsenum*     | DNS zone transfer           |
-| *dig axfrf*   | DNS lookup utility          |
-| *fierce*      | lightweight scanner         |
-| *netdiscover* | Nmap but using ARP requests |
+| COMMAND       | FUNCTION                        |
+| ------------- | ------------------------------- |
+| *dnsenum*     | DNS zone transfer               |
+| *dig axfrf*   | DNS lookup utility              |
+| *fierce*      | lightweight scanner             |
+| *netdiscover* | Nmap but using ARP requests     |
+| *dirb*        | Directory scanner & Bruteforcer |
 
 # What is Active Information Gathering ?
 
@@ -39,7 +40,11 @@ Paranoid|Sneaky|Polite|Normal|Aggressive|Insane|
 
 **Windows system typically block ICMP pings (default scan)**
 
+# Backup files
 
+Common backup extensions : **.bak,.tar.gz,.zip,.sql,.bak.zip**
+
+Curl backup files to read them
 
 ---
 
