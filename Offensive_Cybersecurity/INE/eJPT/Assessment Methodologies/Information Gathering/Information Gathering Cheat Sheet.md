@@ -84,3 +84,7 @@ Putting an asterisk in a search tells Google ‘I don’t know what goes here’
 ```
 site:*.com
 ```
+
+# DNS Records
+
+![[DNS Records.png]]
