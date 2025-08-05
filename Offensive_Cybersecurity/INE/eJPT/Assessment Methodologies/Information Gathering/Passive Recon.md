@@ -10,6 +10,7 @@
 | *dnsrecon*   | Give General DNS information      |
 | *wafw00f*    | Detect type of WAF                |
 | *sublist3r*  | Enumerate subdomains using OSINT  |
+|              |                                   |
 
 # What is Passive Information Gathering ?
 
@@ -81,9 +82,10 @@ WAFW00F does the following:
 
 *Linux Command : sublist3r*
 
-Using [Sublist3r](https://github.com/aboul3la/Sublist3r) for subdomain enumeration
+Using [Sublist3r](https://github.com/aboul3la/Sublist3r) for passive subdomain enumeration
 
-Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
+- Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. 
+- Enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
 
 ---
 
