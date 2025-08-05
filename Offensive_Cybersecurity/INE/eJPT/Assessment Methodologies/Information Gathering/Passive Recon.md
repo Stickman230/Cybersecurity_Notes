@@ -87,6 +87,28 @@ Using [Sublist3r](https://github.com/aboul3la/Sublist3r) for passive subdomain e
 - Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. 
 - Enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
 
+# Google Dorking
+
+[[Information Gathering Cheat Sheet|See Google Dorking]]
+
+# Wayback machine
+
+[Waybackmachine](https://web.archive.org/)
+
+Return to old website versions to see if any info leaks are available.
+
+# TheHarvester
+
+*Linux Command : theHarvester*
+
+[theHarvester](https://github.com/laramies/theHarvester)
+
+Gather publicly available info on a target using OSINT. The tool gathers names, emails, IPs, subdomains, and URLs by using multiple public resources
+
+
+
+
+
 ---
 
 [[Active Recon|See Active recon ]]
