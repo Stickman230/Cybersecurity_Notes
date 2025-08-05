@@ -37,6 +37,9 @@ DNS Zone Transfer on the other hand is :
 Paranoid|Sneaky|Polite|Normal|Aggressive|Insane|
 ```
 
+**Windows system typically block ICMP pings (default scan)**
+
+
 
 ---
 

@@ -10,6 +10,12 @@ Paranoid|Sneaky|Polite|Normal|Aggressive|Insane|
 
 # Examples
 
+## Scan host ignoring Ping probes
+```Shell
+# Very Common for windows host
+nmap -Pn 10.1/33/0
+```
+
 ##  TCP 3way handshake protocols on a network subnet
 ```bash
 nmap -sT 10.1.33.0/24
