@@ -105,6 +105,9 @@ Return to old website versions to see if any info leaks are available.
 
 Gather publicly available info on a target using OSINT. The tool gathers names, emails, IPs, subdomains, and URLs by using multiple public resources
 
+# Have I been Pawned
+
+If you obtain emails check If they are part of data breaches
 
 
 
