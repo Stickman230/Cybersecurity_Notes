@@ -1,4 +1,6 @@
 #eJPT #INE 
+
+![[INE_methodo.png]]
 ![[Information_gathering1.png]]
 
 # Google dork cheat sheet
