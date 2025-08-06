@@ -2,7 +2,7 @@
 
 ![[INE_methodo.png]]
 ![[Information_gathering1.png]]
-
+![[Passive_vs_active.png]]
 # Google dork cheat sheet
 
 [link](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06#google-dork-cheatsheet)
