@@ -16,7 +16,10 @@ How to do: Use Nmap
 
 # Host Discovery
 
-- Ping Sweeps (ICMP Echo Requests): Sending ICMP Echo Requests (ping)
+- Ping Sweeps (ICMP Echo Requests): Sending ICMP Echo Requests (ping) (ICMP Echo Request: Type: 8, Code: 0)
+	- ICMP Echo Reply:
+		+ Type: 0
+		+ Code: 0
 
 - ARP Scanning: Using Address Resolution Protocol (ARP) requests to
 
@@ -27,3 +30,8 @@ How to do: Use Nmap
 - TCP ACK Ping: Sending TCP ACK packets to a specific port to check if a host is alive. This technique expects no response, but if a TCP RST (reset) is received, it indicates that the host is alive.
 
 - SYN-ACK Ping (Sends SYN-ACK packets): Sending TCP SYN-ACK packets to a specific port to check if a host is alive. If a TCP RST is received, it indicates that the host is alive.
+
+
+#### Definitions
+
+*Ping Sweeps* : A ping sweep is a network scanning technique used to discover live hosts, the basic idea is to send a series of ICMP Echo Request (ping) messages to a range of IP addresses and observe the responses
