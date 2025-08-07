@@ -40,7 +40,7 @@ How to do: Use Nmap
 
 # MySQL & Maria DB
 
-get DB information and structure : SHOW DATABASES;
+Get DB information and structure : `SHOW DATABASES;`
 
 #### Definitions
 
