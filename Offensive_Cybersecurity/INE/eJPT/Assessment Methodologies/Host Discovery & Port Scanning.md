@@ -1,9 +1,11 @@
 #eJPT #INE #HostDiscovery
 
-| COMMAND               | FUNCTION                   |
-| --------------------- | -------------------------- |
-| *fping* -aqg          | Discover hosts on network  |
-| *nmap* -Pn -A $target | basic scan for all options |
+| COMMAND                                        | FUNCTION                   |
+| ---------------------------------------------- | -------------------------- |
+| *fping* -aqg                                   | Discover hosts on network  |
+| *nmap* -Pn -A $target                          | basic scan for all options |
+| *mysql* -u USERNAME -pPASSWORD -h 192.134.78.3 | connect to remote mysql db |
+| *ftp*                                          | connect to ftp service     |
 
 # Network Mapping
 
@@ -36,6 +38,9 @@ How to do: Use Nmap
 
 - SYN-ACK Ping (Sends SYN-ACK packets): Sending TCP SYN-ACK packets to a specific port to check if a host is alive. If a TCP RST is received, it indicates that the host is alive.
 
+# MySQL & Maria DB
+
+get DB information and structure : SHOW DATABASES;
 
 #### Definitions
 
