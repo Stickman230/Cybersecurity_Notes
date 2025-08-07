@@ -1,5 +1,10 @@
 #eJPT #INE #HostDiscovery
 
+| COMMAND               | FUNCTION                   |
+| --------------------- | -------------------------- |
+| *fping* -aqg          | Discover hosts on network  |
+| *nmap* -Pn -A $target | basic scan for all options |
+
 # Network Mapping
 
 The process of **identifying Network Infrastructure, Hosts and devices within a target infrastructure**

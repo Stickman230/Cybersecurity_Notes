@@ -1,7 +1,7 @@
 #Tools 
 ***You need to get root privileges for correct use***
 
-# Timing Templates
+# Timing Options
 
 ```python
    -T0    -T1    -T2    -T3      -T4      -T5
