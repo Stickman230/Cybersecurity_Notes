@@ -1,4 +1,4 @@
-# Nmap Firewall Evasion – Layered Stealth Scanning Flow
+
 
 ```mermaid
 flowchart TD

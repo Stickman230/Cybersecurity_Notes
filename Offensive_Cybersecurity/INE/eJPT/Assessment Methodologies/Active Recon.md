@@ -29,7 +29,7 @@ DNS Zone Transfer on the other hand is :
 
 # Port scanning with Nmap
 
-[[Nmap|Nmap cheat sheet]]
+[[Personal Nmap Cheat Sheet|Nmap cheat sheet]]
 
 #### Timing Templates
 
