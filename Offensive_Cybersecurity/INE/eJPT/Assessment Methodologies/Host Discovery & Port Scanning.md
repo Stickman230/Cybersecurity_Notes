@@ -42,7 +42,11 @@ How to do: Use Nmap
 
 Get DB information and structure : `SHOW DATABASES;`
 
-[[Evasion Techniques|See Evasion Techniques]]
+# Evasion Techniques
+
+Using Nmap to evade Firewalls and discover hosts stealthily
+
+[[Nmap Firewall Evasion Cheat Sheet]]
 
 ---
 
