@@ -12,3 +12,24 @@ msf> use MODULE_PATH
 ```bash
 msf> show options
 ```
+
+4. Set module options
+```bash
+msf> set OPTION_NAME VALUE
+```
+
+5. Run the module
+```bash
+msf> run or exploit
+```
+
+6. Check if session created and info about victim
+```bash
+meterpreter> sysinfo
+```
+
+7. Spawn shell session so we get usual commands
+```bash
+meterpreter> shell   # Spawn normal shell
+meterpreter> /bin/bash -i # Convert to interactive bash session
+```
