@@ -33,3 +33,13 @@ meterpreter> sysinfo
 meterpreter> shell   # Spawn normal shell
 meterpreter> /bin/bash -i # Convert to interactive bash session
 ```
+
+8. Background session if needed
+```bash
+meterpreter> background
+```
+
+9. Check active sessions, or rejoin session
+```bash
+msf> sessions SESS_NUMBER
+```

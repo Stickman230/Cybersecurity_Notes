@@ -44,3 +44,5 @@ msf> db_nmap NMAP_SCAN_OPTIONS
 **Not exploitation**, information gathering only
 
 + We can use auxiliary modules to perform **both TCP & UDP port scanning as well as enumerating information** from services like FTP, SSH, HTTP...
+
+[[Use Modules|See Cheat Sheet for using metasploit module for exploitation]]
