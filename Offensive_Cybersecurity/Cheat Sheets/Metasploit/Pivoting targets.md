@@ -20,9 +20,11 @@ ip a
 ifconfig
 ```
 
-5. step out of interactive shell and add internal ip to routes
+5. Step out of interactive shell and add internal ip to routes
 ```bash
 meterpreter> run autoroute -s INTERNAL_IP_ADDR    # Add Subnet route to targets
+meterpreter> run autoroute -d -s FALSE_IP_ADDR    # Remove subnet if wrong ip inputed
+meterpreter> run autoroute -p                     # Check active routes
 ```
 
 8. Background session 
@@ -34,5 +36,5 @@ meterpreter> background
 ```bash
 msf> search portscan
 msf> use auxiliary/scanner/portscan/tcp
-msf> set 
+msf> set OPTION_NAME VALUE
 ```
