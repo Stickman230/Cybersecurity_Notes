@@ -33,4 +33,8 @@ msf> db_import PATH_TO_RESULTS
 msf> hosts or services
 ```
 
-6. Launch nmap scan 
+6. Launch Nmap scan from metasploit
+```bash
+msf> db_nmap NMAP_SCAN_OPTIONS
+```
+

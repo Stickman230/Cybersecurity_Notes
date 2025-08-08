@@ -46,7 +46,7 @@ Get DB information and structure : `SHOW DATABASES;`
 
 Using Nmap to evade Firewalls and discover hosts stealthily
 
-[[Nmap Firewall Evasion Cheat Sheet]]
+[[Firewall Evasion Cheat Sheet]]
 
 ---
 
