@@ -38,3 +38,9 @@ msf> hosts or services
 msf> db_nmap NMAP_SCAN_OPTIONS
 ```
 
+# Using Metasploit Auxiliary Modules
+
+*Auxiliary modules are used to perform functionality like scanning, discovery and fuzzing.*
+**Not exploitation**, information gathering only
+
++ We can use auxiliary modules to perform **both TCP & UDP port scanning as well as enumerating information** from services like FTP, SSH, HTTP...
