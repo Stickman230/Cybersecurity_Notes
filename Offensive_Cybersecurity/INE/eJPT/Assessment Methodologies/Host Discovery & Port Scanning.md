@@ -42,6 +42,10 @@ How to do: Use Nmap
 
 Get DB information and structure : `SHOW DATABASES;`
 
+[[Evasion Techniques|See Evasion Techniques]]
+
+---
+
 #### Definitions
 
 *Ping Sweeps* : A ping sweep is a network scanning technique used to discover live hosts, the basic idea is to send a series of ICMP Echo Request (ping) messages to a range of IP addresses and observe the responses

@@ -111,8 +111,6 @@ Gather publicly available info on a target using OSINT. The tool gathers names, 
 If you obtain emails check If they are part of data breaches
 
 
-
-
 ---
 
 [[Active Recon|See Active recon ]]
