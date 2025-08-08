@@ -28,18 +28,23 @@ msf> run or exploit
 meterpreter> sysinfo
 ```
 
-7. Spawn shell session so we get usual commands
+7. Upload local file to remote host
+```bash
+meterpreter> upload LOCAL_PATH REMOTE_PATH # You can upload
+```
+
+8. Spawn shell session so we get usual commands
 ```bash
 meterpreter> shell   # Spawn normal shell
 meterpreter> /bin/bash -i # Convert to interactive bash session
 ```
 
-8. Background session if needed
+9. Background session if needed
 ```bash
 meterpreter> background
 ```
 
-9. Check active sessions, or rejoin session
+10. Check active sessions, or rejoin session
 ```bash
 msf> sessions SESS_NUMBER
 ```
