@@ -97,27 +97,23 @@ nmap --spoof-mac 00:11:22:33:44:55 <target>
 ```
 
 ---
-
 ## 9. Using IPv6
 
 Sometimes bypasses IPv4-only filters.
 
-bash
-
-CopyEdit
-
-`nmap -6 <target>`
+```bash
+nmap -6 <target>
+```
 
 ---
 ## 10. Appending DNS Resolution Tricks
 
 Avoid DNS queries or force reverse lookups.
 
-bash
-
-CopyEdit
-
-`nmap -n <target>         # No DNS resolution nmap -R <target>         # Always reverse-resolve`
+```bash
+nmap -n <target>         # No DNS resolution 
+nmap -R <target>         # Always reverse-resolve
+```
 
 ---
 
@@ -125,15 +121,22 @@ CopyEdit
 
 Pad packets to evade IDS signatures.
 
-bash
-
-CopyEdit
-
-`nmap --data-length 50 <target>`
+```bash
+nmap --data-length 50 <target>
+```
 
 - Adds 50 random bytes to each packet.
 
+---
+## 12. Idle/Zombie Scan (`-sI`)
 
+Use an idle host to scan indirectly.
+
+```bash
+nmap -sI zombie.example.com <target>
+```
+
+- Hides your IP completely if done right.
 
 ---
 ## Combination Example
