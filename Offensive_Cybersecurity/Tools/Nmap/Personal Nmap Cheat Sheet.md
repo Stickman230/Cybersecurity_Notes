@@ -1,4 +1,4 @@
-#Tools 
+#Tools #Nmap 
 ***You need to get root privileges for correct use***
 
 # Timing Options

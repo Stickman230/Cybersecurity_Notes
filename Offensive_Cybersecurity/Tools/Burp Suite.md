@@ -1,4 +1,4 @@
-#Tools 
+#Tools #BurpSuite
 - Burp Suite is an integrated platform for performing security testing of web applications. It includes various tools for scanning, fuzzing, intercepting, and analyzing web traffic
 
 - Burp Suite captures and enables manipulation of all the HTTP/HTTPS traffic between a browser and a web server
