@@ -10,7 +10,7 @@ meterpreter> sysinfo
 
 3. Upload nmap static binary if needed for port scan
 ```bash
-meterpreter> upload LOCAL_PATH REMOTE_PATH # You can upload
+meterpreter> upload LOCAL_PATH REMOTE_PATH # You can upload '/root/static-binaries/nmap'
 ```
 
 4. Spawn shell session so we get usual commands
@@ -37,7 +37,7 @@ meterpreter> run autoroute -p                     # Check active routes
 meterpreter> background
 ```
 
-8. Port scan new target, to rebound on set route
+8. Port scan new target, to rebound on set subnet route
 ```bash
 msf> search portscan
 msf> use auxiliary/scanner/portscan/tcp
