@@ -1,6 +1,5 @@
 #eJPT #INE #Enumeration #Metasploit
 
-
 | COMAND    | FUNCTION        |
 | --------- | --------------- |
 | *curl* -I | Get the headers |
@@ -60,7 +59,7 @@ Metasploit modules:
 ---
 # WEB Servers
 
-HTTP is an application layer protocol that utilizes TCP port 80 for communication or 443 for SSL confections (HTTPS).
+*HTTP is an application layer protocol that utilizes TCP port 80 for communication or 443 for SSL confections (HTTPS)*.
 + Examples of popular web servers are : Apache, Nginx and Microsoft IIS.
 
 Metasploit modules:
@@ -79,7 +78,7 @@ BRUTEFORCE
 ---
 # MYSQL
 
-+ MySQL is an open-source relational database management system based on SQL (Structured Query Language).
++ *MySQL is an open-source relational database management system based on SQL* (Structured Query Language).
 + *MySQL utilizes TCP port 3306* by default, **however, like any service it can be hosted on any open TCP port**.
 
 Metasploit modules:
@@ -92,9 +91,23 @@ BRUTEFORCE
 
 ENUMERATION
 - auxiliary/admin/mysql/mysql_enum
-
-- auxiliary/admin/mysql/mysql_sql
-- auxiliary/scanner/mysql/mysql_file_enum
-- auxiliary/scanner/mysql/mysql_hashdump
 - auxiliary/scanner/mysql/mysql_schemadump
-- auxiliary/scanner/mysql/mysql_writable_dirs
+
+INTERACTION
+- auxiliary/admin/mysql/mysql_sql
+
+---
+# SSH
+
+*SSH (Secure Shell) is a remote administration protocol* that offers encryption and is the successor to Telnet.
+
++ It is typically used for remote access to servers and systems.
++ *SSH uses TCP port 22 by default,* however, like other services, it can be configured to use any other open TCP port.
+
+Metasploit framework:
+
+DETECTION
+- auxiliary/scanner/ssh/ssh_version
+
+BRUTEFORCE
+- auxiliary/scanner/ssh/ssh_login
