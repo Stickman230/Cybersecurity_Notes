@@ -29,3 +29,11 @@ Metasploit wordlists are in
 
 **FTP (File Transfer Protocol) is a protocol that uses TCP port 21** and is used to facilitate file sharing between a server and client/clients.
 
+Metasploit modules:
+- ftp_version
+- ftp_login (bruteforce)
+
+# SMB
+
++ *SMB (Server Message Block) is a network file sharing protocol* that is used to facilitate the sharing of files and peripherals between computers on a local network (LAN).
++ SMB uses port 445 (TCP). However, originally, SMB ran on top of NetBIOS using port 139.
