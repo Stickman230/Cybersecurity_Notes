@@ -109,5 +109,17 @@ Metasploit framework:
 DETECTION
 - auxiliary/scanner/ssh/ssh_version
 
+ENUMERATION
+- auxiliary/scanner/ssh/ssh_enumusers
+
 BRUTEFORCE
-- auxiliary/scanner/ssh/ssh_login
+- auxiliary/scanner/ssh/ssh_login (login)
+- auxiliary/scanner/ssh/ssh_login_pubkey (key)
+
+---
+
+# SMTP
+
+**SMTP (Simple Mail Transfer Protocol) is a communication protocol that is used for the transmission of email.**
+- *SMTP uses TCP port 25* by default. It is can also be configured to run on TCP port 465 and 587.
+
