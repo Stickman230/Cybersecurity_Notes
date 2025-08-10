@@ -33,6 +33,7 @@ Metasploit wordlists are in
 - /usr/share/metasploit-framework/data/wordlists/common_passwords.txt
 - /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
 - /usr/share/metasploit-framework/data/wordlists/common_users.txt
+- /usr/share/metasploit-framework/data/wordlists/namelist.txt
 
 ---
 # FTP
@@ -63,17 +64,37 @@ HTTP is an application layer protocol that utilizes TCP port 80 for communicatio
 + Examples of popular web servers are : Apache, Nginx and Microsoft IIS.
 
 Metasploit modules:
+
+DISCOVERY
 - auxiliary/scanner/http/http_version
 - auxiliary/scanner/http/http_header
-- auxiliary/scanner/http/dir_scanner
-- auxiliary/scanner/http/apache_userdir_enum
-- auxiliary/scanner/http/brute_dirs
 
-- auxiliary/scanner/http/dir_listing
-- auxiliary/scanner/http/http_put
+ENUM
+- auxiliary/scanner/http/dir_scanner
 - auxiliary/scanner/http/files_dir
+
+BRUTEFORCE
 - auxiliary/scanner/http/http_login
--
+- auxiliary/scanner/http/apache_userdir_enum (**APACHE SPECIFIC**) 
 ---
 # MYSQL
 
++ MySQL is an open-source relational database management system based on SQL (Structured Query Language).
++ *MySQL utilizes TCP port 3306* by default, **however, like any service it can be hosted on any open TCP port**.
+
+Metasploit modules:
+
+DETECTION
+- auxiliary/scanner/mysql/mysql_version
+
+BRUTEFORCE
+- auxiliary/scanner/mysql/mysql_login
+
+ENUMERATION
+- auxiliary/admin/mysql/mysql_enum
+
+- auxiliary/admin/mysql/mysql_sql
+- auxiliary/scanner/mysql/mysql_file_enum
+- auxiliary/scanner/mysql/mysql_hashdump
+- auxiliary/scanner/mysql/mysql_schemadump
+- auxiliary/scanner/mysql/mysql_writable_dirs
