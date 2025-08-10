@@ -8,36 +8,7 @@ After the host discovery and port scanning phase of a penetration test, the next
 
 # Importing Nmap Scan results to Metasploit
 
-1. Start The PostgreSQL DB 
-```bash
-service postgresql start
-```
-
-2. Check status of DB
-```bash
-msf> db_status
-```
-
-3. Create Workspace to organize results
-```
-msf> workspace -a NAME
-```
-
-4. Import Nmap results
-```bash
-msf> db_import PATH_TO_RESULTS
-```
-
-5. Confirm import 
-```bash
-msf> hosts or services
-```
-
-6. Launch Nmap scan from metasploit
-```bash
-msf> db_nmap NMAP_SCAN_OPTIONS
-```
-
+[[Import Nmap Results|See import nmap to metasploit cheat sheet]]
 # Using Metasploit Auxiliary Modules
 
 *Auxiliary modules are used to perform functionality like scanning, discovery and fuzzing.*
@@ -48,3 +19,8 @@ msf> db_nmap NMAP_SCAN_OPTIONS
 [[Use Modules|See Cheat Sheet for using metasploit module for exploitation]]
 
 [[Pivoting targets|See Cheat Sheet for using metasploit to pivot targets]]
+
+# FTP
+
+**FTP (File Transfer Protocol) is a protocol that uses TCP port 21** and is used to facilitate file sharing between a server and client/clients.
+
