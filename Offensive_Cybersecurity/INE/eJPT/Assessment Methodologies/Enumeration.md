@@ -20,6 +20,11 @@ After the host discovery and port scanning phase of a penetration test, the next
 
 [[Pivoting targets|See Cheat Sheet for using metasploit to pivot targets]]
 
+Metasploit wordlists are in 
+- /usr/share/metasploit-framework/data/wordlists/common_passwords.txt
+- /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
+- /usr/share/metasploit-framework/data/wordlists/common_users.txt
+
 # FTP
 
 **FTP (File Transfer Protocol) is a protocol that uses TCP port 21** and is used to facilitate file sharing between a server and client/clients.
