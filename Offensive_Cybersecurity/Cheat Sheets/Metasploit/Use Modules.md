@@ -16,7 +16,8 @@ msf> show options
 
 4. Set module options
 ```bash
-msf> set OPTION_NAME VALUE
+msf> set OPTION_NAME VALUE     # SET MODULE OPTION
+msf> setg OPTION_NAME VALUE    # SET GLOBAL OPTION
 ```
 
 5. Run the module
