@@ -12,6 +12,7 @@ msf> use MODULE_PATH
 3. Show module options
 ```bash
 msf> show options
+msf> info  # Show full details
 ```
 
 4. Set module options
