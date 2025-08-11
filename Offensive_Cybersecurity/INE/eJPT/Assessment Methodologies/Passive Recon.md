@@ -89,7 +89,7 @@ Using [Sublist3r](https://github.com/aboul3la/Sublist3r) for passive subdomain e
 
 # Google Dorking
 
-[[Information Gathering Cheat Sheet|See Google Dorking]]
+[[Cheat Sheet|See Google Dorking]]
 
 # Wayback machine
 
