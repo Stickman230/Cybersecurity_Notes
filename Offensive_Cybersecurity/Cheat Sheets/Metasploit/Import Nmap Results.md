@@ -27,3 +27,13 @@ msf> hosts or services
 ```bash
 msf> db_nmap NMAP_SCAN_OPTIONS
 ```
+
+7. Analise results
+```bash
+msf> analyze
+```
+
+8. Check detected vulnerabilities
+```bash
+msf> vulns
+```
