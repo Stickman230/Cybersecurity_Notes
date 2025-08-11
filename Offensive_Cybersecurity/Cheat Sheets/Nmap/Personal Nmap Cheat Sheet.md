@@ -1,6 +1,12 @@
 #Tools #Nmap 
 ***You need to get root privileges for correct use***
 
+# Script locations
+
+```bash
+usr/share/nmap/scripts/ | grep "SCRIPT_NAME"
+```
+
 # Timing Options
 
 ```python
