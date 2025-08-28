@@ -1,0 +1,1 @@
+https://infosecwriteups.com/how-assertions-can-get-you-hacked-da22c84fb8f6
