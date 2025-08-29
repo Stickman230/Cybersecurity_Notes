@@ -24,7 +24,14 @@ Caused by a vulnerability in Bash, whereby *Bash mistakenly executes trailing co
 
 # Exploitation
 
+1. Check if target is running Apache
 
+2. Check if Apache is vulnerable using nmap script
+```bash
+nmap TARGET --script=http-shellshock --script-args "http-shellshock.uri=/PATH.cgi"
+```
+
+3. 
 ---
 #### Definitions
 
