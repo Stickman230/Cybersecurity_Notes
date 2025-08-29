@@ -14,7 +14,7 @@ After the host discovery and port scanning phase of a penetration test, the next
 ---
 # Importing Nmap Scan results to Metasploit
 
-[[Import Nmap Results|See import nmap to metasploit cheat sheet]]
+[[Import Nmap-Nessus Results|See import nmap to metasploit cheat sheet]]
 
 ---
 # Using Metasploit Auxiliary Modules

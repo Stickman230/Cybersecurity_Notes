@@ -13,7 +13,7 @@ msf> db_status
 msf> workspace -a NAME
 ```
 
-4. Import Nmap results
+4. Import Nmap/Nessus results
 ```bash
 msf> db_import PATH_TO_RESULTS
 ```
