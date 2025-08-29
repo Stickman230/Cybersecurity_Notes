@@ -12,17 +12,17 @@ Shellshock (CVE-2014-6271) is the name given to a family of **vulnerabilities in
 
 ● In the context of remote exploitation, Apache web servers configured to run \*CGI scripts or .sh scripts are also vulnerable to this attack.
 
-# Shellshock Exploitation
+# Shellshock Exploitation Basics
 
 Caused by a vulnerability in Bash, whereby *Bash mistakenly executes trailing commands after a series of characters*: () {:;};.
 
-● In order to exploit this vulnerability, you will need to locate an input vector or script that allows you to communicate with Bash.
+● In order to exploit this vulnerability, you will need to l**ocate an input vector or script that allows you to communicate with Bash.**
 
-● In the context of an Apache web server, we can utilize any legitimate CGI scripts accessible on the web server.
+● In the context of an Apache web server, we can **utilize any legitimate CGI scripts** accessible on the web server.
 
-● Whenever a CGI script is executed, the web server will initiate a new process and run the CGI script with Bash.
+● Whenever a CGI script is executed, *the web server will initiate a new process and run the CGI script with Bash.*
 
-● This vulnerability can be exploited both manually and automatically with the use of an MSF exploit module.
+# Exploitation
 
 
 ---
