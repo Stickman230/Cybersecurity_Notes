@@ -35,5 +35,5 @@ msf> analyze
 
 8. Check detected vulnerabilities
 ```bash
-msf> vulns
+msf> vulns -p PORT
 ```

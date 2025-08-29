@@ -1,7 +1,7 @@
 1. Search for corresponding module
 ```bash
 msf> search MODULE
-msf> search type:TYPE name:MODULE_NAME
+msf> search type:TYPE name:MODULE_NAME cve:CVE_NUM
 ```
 
 2. Use chosen module
