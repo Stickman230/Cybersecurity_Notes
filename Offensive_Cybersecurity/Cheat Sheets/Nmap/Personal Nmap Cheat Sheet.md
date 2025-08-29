@@ -4,7 +4,7 @@
 # Script locations
 
 ```bash
-usr/share/nmap/scripts/ | grep "SCRIPT_NAME"
+ls /usr/share/nmap/scripts/ | grep "SCRIPT_NAME"
 ```
 
 # Timing Options
