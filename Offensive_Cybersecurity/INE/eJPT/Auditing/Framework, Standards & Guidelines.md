@@ -1,4 +1,4 @@
-
+#eJPT #INE #Framework #Standard #Guideline
 # Frameworks
 
 *Provide a structured approach to implementing security practices, often flexible and adaptable to various organizations and industries.*
@@ -17,7 +17,7 @@
 *Set specific requirements and criteria that must be met to achieve compliance; often mandatory in regulated industries.*
 
 **ISO/IEC 27001**
-- Overview: An international standard for information security management systems (ISMS) that outlines best practices for managing and protecting sensitive information.
+- Overview: An i<u>nternational</u> standard for information security management systems (ISMS) that outlines best practices for managing and protecting sensitive information.
 - Key Focus: Establishing, implementing, maintaining, and continually improving an ISMS.
 
 **PCI Data Security Standard (PCI DSS)**
@@ -47,4 +47,4 @@
 **NIST SP 800-53**
 - Overview: A publication by NIST that provides a catalog of security and privacy controls for federal information systems and organizations.
 - Key Focus: Security controls for federal information systems, including controls for risk management and information security.
-- Legal Requirement: Required for U.S. federal agencies and organizations handling federal data.
+- Legal Requirement: Required for <u>U.S. federal agencies</u> and organizations handling federal data.
