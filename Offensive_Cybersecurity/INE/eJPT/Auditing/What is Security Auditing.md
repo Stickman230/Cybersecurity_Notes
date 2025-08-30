@@ -54,14 +54,12 @@ Two **separate types of security assessments** that have their *own unique scope
 
 ## Combined approach
 
-Integrate Security Audit and Penetration Testing: Some organizations choose to combine security audits and penetration tests, often through a  holistic security assessment that incorporates both elements.
+***Integrate Security Audit and Penetration Testing:*** Some organizations choose to combine security audits and penetration tests, often through a holistic security assessment that incorporates both elements.
 
-Advantages
+**Advantages**
 + Streamlines the assessment process by combining policy, procedural and technical evaluations.
-+ Provides a more complete picture of the organization’s security posture
-in a single engagement.
-+ Can be more efficient and cost-effective by addressing both compliance
-and technical vulnerabilities simultaneously.
++ Provides a more complete picture of the organization’s security posture in a single engagement.
++ Can be more efficient and cost-effective 
 
 ---
 # Definitions

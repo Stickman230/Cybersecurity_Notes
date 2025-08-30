@@ -1,3 +1,5 @@
+#eJPT #INE #Auditing
+
 # Security Auditing Process
 
 ![[Audit_lifecycle.png]]
