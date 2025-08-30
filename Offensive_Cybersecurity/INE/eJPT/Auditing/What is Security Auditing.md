@@ -37,7 +37,33 @@ Security Auditing is a *systematic process of evaluating and verifying the secur
 ● Security auditing is not a one-time activity but an **ongoing process** that promotes continuous improvement.
 ● Regular audits ensure that security measures **evolve to address new threats** and vulnerabilities, maintaining a proactive approach to security.
 
+# Security Audit VS Penetration test
 
+Two **separate types of security assessments** that have their *own unique scope, objectives and desired outcomes*
+
+![[audit_vs_pentest.png]]
+
+### Sequential approach
+
+● ***Perform Security Audit First:*** Companies often conduct a security audit first to **evaluate their overall security posture, ensure compliance with regulations, and identify areas for improvement** in policies and procedures.
+
+● ***Conduct Penetration Test Afterwards:*** Based on the findings of the audit, a **penetration test may be performed to assess the effectiveness of technical controls and identify specific vulnerabilities**.
+
+*Identifies and addresses gaps in both procedural and technical controls and helps prioritize remediation efforts based on audit findings.*
+
+
+## Combined approach
+
+Integrate Security Audit and Penetration Testing: Some organizations choose to combine security audits and penetration tests, often through a  holistic security assessment that incorporates both elements.
+
+Advantages
++ Streamlines the assessment process by combining policy, procedural and technical evaluations.
++ Provides a more complete picture of the organization’s security posture
+in a single engagement.
++ Can be more efficient and cost-effective by addressing both compliance
+and technical vulnerabilities simultaneously.
+
+---
 # Definitions
 
 | Term                  | Definition                                                                                                                        | Importance                                                                                                       |
