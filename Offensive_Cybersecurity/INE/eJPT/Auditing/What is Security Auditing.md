@@ -37,21 +37,6 @@ Security Auditing is a *systematic process of evaluating and verifying the secur
 ● Security auditing is not a one-time activity but an **ongoing process** that promotes continuous improvement.
 ● Regular audits ensure that security measures **evolve to address new threats** and vulnerabilities, maintaining a proactive approach to security.
 
-# Security Auditing Process
-
-![[Audit_lifecycle.png]]
-
-## 1. Planning and Preparation
-
-● Define Objectives and Scope: Determine the goals of the audit and the specific systems, processes, and controls to be evaluated.
-● Gather Relevant Documentation: Collect policies, procedures, network diagrams, and previous audit reports.
-● Establish Audit Team and Schedule: Assemble the audit team and set a timeline for the audit activities.
-
-## 2. Information Gathering
-
-● Review Policies and Procedures: Examine the organization’s security policies, procedures, and standards.
-● Conduct Interviews: Interview key personnel to understand security practices and identify potential gaps.
-● Collect Technical Information: Gather data on system configurations, network architecture, and security controls.
 
 # Definitions
 
