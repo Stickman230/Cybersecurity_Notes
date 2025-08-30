@@ -41,7 +41,7 @@ Security Auditing is a *systematic process of evaluating and verifying the secur
 
 ![[Audit_lifecycle.png]]
 
-### 1. Planning and Preparation
+## 1. Planning and Preparation
 
 ● Define Objectives and Scope: Determine the goals of the audit and the specific systems, processes, and controls to be evaluated.
 ● Gather Relevant Documentation: Collect policies, procedures, network diagrams, and previous audit reports.
