@@ -43,30 +43,36 @@ Security Auditing is a *systematic process of evaluating and verifying the secur
 
 ● Regular audits ensure that security measures evolve to address new threats and vulnerabilities, maintaining a proactive approach to security.
 
+# Security Auditing Process
+
+[[Audit_lifecycle.png]]
+
+### 1. Planning and Preparation
+
+● Define Objectives and Scope: Determine the goals of the audit and the specific systems, processes, and controls to be evaluated.
+● Gather Relevant Documentation: Collect policies, procedures, network diagrams, and previous audit reports.
+● Establish Audit Team and Schedule: Assemble the audit team and set a timeline for the audit activities.
+
+## 2. Information Gathering
+
+● Review Policies and Procedures: Examine the organization’s security policies, procedures, and standards.
+● Conduct Interviews: Interview key personnel to understand security practices and identify potential gaps.
+● Collect Technical Information: Gather data on system configurations, network architecture, and security controls.
+
+# Definitions
+
+| Term              | Definition                                                                                                                        | Importance                                                                                                       |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Security Policies | Formal documents that define an organization's security<br>objectives, guidelines, and procedures to protect information assets.  | Establishes the framework for implementing and enforcing security controls.                                      |
+| Compliance        | Adherence to regulatory requirements, industry standards,<br>and internal policies related to security and data protection.<br>   | Ensures that the organization meets legal obligations and best practices.                                        |
+| Vulnerability     | A weakness in a system or process that can be exploited to<br>gain unauthorized access or cause harm.<br>                         | Identifying vulnerabilities is crucial for assessing and improving security measures.                            |
+| Control           | A safeguard or countermeasure implemented to mitigate<br>risks and protect information assets.                                    | Controls are designed to prevent, detect, or respond to security threats and weaknesses.                         |
+| Risk Assessment   | The process of identifying, analyzing, and evaluating risks to<br>an organization’s information assets.                           | Helps prioritize security measures based on the likelihood and impact of identified risks.                       |
+| <br>Audit Trail   | A chronological record of events and activities that provides<br>evidence of actions taken within a system.<br>                   | Supports accountability and traceability during security audits and investigations.                              |
+| Compliance Audit  | An examination of an organization’s adherence to regulatory requirements and industry standards.                                  | Validates whether the organization meets the necessary compliance criteria and identifies areas for improvement. |
+| Access Control    | Measures and mechanisms used to regulate who can access<br>specific information or systems and what actions they can perform.<br> | Protects sensitive information from unauthorized access and misuse.                                              |
+| Audit Report      | A formal document that presents the findings, conclusions,<br>and recommendations resulting from a security audit.                | Communicates audit results and provides guidance for improving security practices.                               |
 
 
-#### Definitions
-
-| Term                                                                                                                                                                                                                                    | Definition | Importance |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
-| Security Policies Formal documents that define an organization's security<br>objectives, guidelines, and procedures to protect information<br>assets.<br>Establishes the framework for implementing and<br>enforcing security controls. |            |            |
-| Compliance Adherence to regulatory requirements, industry standards,<br>and internal policies related to security and data protection.<br>Ensures that the organization meets legal obligations<br>and best practices.                  |            |            |
-| Vulnerability A weakness in a system or process that can be exploited to<br>gain unauthorized access or cause harm.<br>Identifying vulnerabilities is crucial for assessing and<br>improving security measures.                         |            |            |
-| Control A safeguard or countermeasure implemented to mitigate<br>risks and protect information assets.<br>Controls are designed to prevent, detect, or respond<br>to security threats and weaknesses.                                   |            |            |
-| Risk Assessment The process of identifying, analyzing, and evaluating risks to<br>an organization’s information assets.<br>Helps prioritize security measures based on the<br>likelihood and impact of identified risks.                |            |            |
-| <br>Audit Trail A chronological record of events and activities that provides<br>evidence of actions taken within a system.<br>Supports accountability and traceability during security<br>audits and investigations.                   |            |            |
-|                                                                                                                                                                                                                                         |            |            |
-|                                                                                                                                                                                                                                         |            |            |
-|                                                                                                                                                                                                                                         |            |            |
 
 
-
-Access Control Measures and mechanisms used to regulate who can access
-specific information or systems and what actions they can
-perform.
-Protects sensitive information from unauthorized
-access and misuse.
-Audit Report A formal document that presents the findings, conclusions,
-and recommendations resulting from a security audit.
-Communicates audit results and provides guidance for
-improving security practices.
