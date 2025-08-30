@@ -13,7 +13,7 @@ Governance refers to *the framework of policies, procedures, and practices that 
 
 # Risk
 
-Risk management involves **identifying, assessing, and mitigating risks** that could negatively impact an organization's assets and operations.
+Risk management involves *identifying, assessing and mitigating risks* that could negatively impact an organization's assets and operations.
 
 ● Components:
 - **Risk Identification:** Recognizing potential threats and vulnerabilities.
@@ -22,17 +22,17 @@ Risk management involves **identifying, assessing, and mitigating risks** that c
 
 # Compliance
 
-Compliance ensures that an organization adheres to relevant laws, regulations, and industry standards.
+Compliance *ensures that an organization adheres to relevant laws, regulations, and industry standards.*
 
 ● Components:
-- Regulatory Requirements: Meeting legal obligations such as GDPR, HIPAA, or PCI DSS.
-- Internal Policies: Adhering to internal security policies and procedures.
-- Audits and Assessments: Conducting regular reviews to ensure compliance.
+- **Regulatory Requirements:** Meeting legal obligations such as GDPR, HIPAA, or PCI DSS.
+- **Internal Policies:** Adhering to internal security policies and procedures.
+- **Audits and Assessments:** Conducting regular reviews to ensure compliance.
 
 # Importance of GRC
 
-● Comprehensive Security Assessment: Understanding GRC helps testers conduct more thorough and relevant assessments.
+● Understanding GRC helps testers conduct more thorough and relevant assessments.
 
-● Enhanced Reporting: Knowledge of GRC allows testers to frame their findings in the context of organizational policies, risk management, and compliance requirements.
+●  *Allows testers to frame their findings in the context of organizational policies*, risk management, and compliance requirements.
 
-● Strategic Recommendations: Testers can provide more strategic recommendations that align with the organization's GRC framework, helping to strengthen overall security posture.
+● *Testers can provide more strategic recommendations that align with the organization's GRC framework*, helping to strengthen overall security posture.
