@@ -28,6 +28,9 @@
 - GoPhish enables users to create phishing landing pages that mimic legitimate login portals or websites. These landing pages can be customized to capture credentials, personal information, or other sensitive data from targets.
 - This tool supports campaign scheduling and automation, allowing users to schedule campaign launches at specific dates and times or set up recurring campaigns
 
+1. config.json enables you to set your domain and SSL certificate
+2. set up a sending profile 
+
 ---
 
 ## Spear Fishing
