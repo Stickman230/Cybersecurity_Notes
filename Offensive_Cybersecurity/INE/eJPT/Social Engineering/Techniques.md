@@ -30,6 +30,10 @@
 
 1. config.json enables you to set your domain and SSL certificate
 2. set up a sending profile 
+3. set up a landing page
+4. set up the email template
+5. set up users and groups
+6. create a campaign
 
 ---
 
