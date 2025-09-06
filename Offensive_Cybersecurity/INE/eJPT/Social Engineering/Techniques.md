@@ -20,6 +20,14 @@
 
 5. **Exploitation**: Once the victim interacts with the phishing message, attackers exploit vulnerabilities in the target's systems or applications to gain unauthorized access, install malware, or steal sensitive information.
 
+### Using GoPhish
+
+*GoPhish is an open-source phishing framework designed for penetration testers and security professionals to simulate phishing attacks against their own organizations*
+
+- The platform provides a built-in email template editor with a WYSIWYG (What You See Is What You Get) interface,
+- GoPhish enables users to create phishing landing pages that mimic legitimate login portals or websites. These landing pages can be customized to capture credentials, personal information, or other sensitive data from targets.
+- This tool supports campaign scheduling and automation, allowing users to schedule campaign launches at specific dates and times or set up recurring campaigns
+
 ---
 
 ## Spear Fishing
