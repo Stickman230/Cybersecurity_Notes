@@ -29,27 +29,15 @@ Web app is a good target because = gain of  personal information, financial data
 *Web application security testing is the process of evaluating and assessing the security aspects of web applications to identify vulnerabilities, weaknesses, and potential security risks.*
 
 - conducting various tests and assessments to ensure that web applications are resistant to security threats and can effectively protect sensitive data and functionalities from unauthorized access or malicious activities.
-###
 
-- Vulnerability Scanning: Using automated tools to scan the web application
-for known vulnerabilities, such as SQL injection, Cross-Site Scripting (XSS),
-insecure configurations, and outdated software versions.
-○ Penetration Testing: Simulating real-world attacks to assess the
-application's defenses and identify potential security weaknesses. This
-involves ethical hacking to gain insights into how an attacker might exploit
-vulnerabilities.
-○ Code Review and Static Analysis: Manual examination of the application's
-source code to identify coding flaws, security misconfigurations, and
-potential security risks.
-Web Application Security Testing Types
-● Authentication and Authorization Testing: Evaluating the effectiveness of
-authentication mechanisms and access control features to ensure that
-only authorized users have appropriate access levels.
-● Input Validation and Output Encoding Testing: Assessing how the
-application handles user inputs to prevent common security
-vulnerabilities like XSS and SQL injection.
-● Session Management Testing: Verifying how the application manages
-user sessions and related tokens to prevent session-related attacks.
-● API Security Testing: Assessing the security of APIs (Application
-Programming Interfaces) used by the web application for data exchange
-and integration with other systems.
+### Types of Web Application Security Testing
+
+| Name                                             | Explaination                                                                                                                                                                                                      |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vulnerability Scanning**                       | Using automated tools to scan the web application for known vulnerabilities, such as SQL injection, Cross-Site Scripting (XSS), insecure configurations, and outdated software versions.                          |
+| **Penetration Testing**                          | Simulating real-world attacks to assess the application's defenses and identify potential security weaknesses. This involves ethical hacking to gain insights into how an attacker might exploit vulnerabilities. |
+| **Code Review and Static Analysis**              | Manual examination of the application's source code to identify coding flaws, security misconfigurations, and potential security risks.                                                                           |
+| **Authentication and Authorization Testing**     | Evaluating the effectiveness of authentication mechanisms and access control features to ensure that only authorized users have appropriate access levels.                                                        |
+| **Input Validation and Output Encoding Testing** | Assessing how the application handles user inputs to prevent common security vulnerabilities like XSS and SQL injection.                                                                                          |
+| **Session Management Testing**                   | Verifying how the application manages user sessions and related tokens to prevent session-related attacks.                                                                                                        |
+| **API Security Testing**                         | Assessing the security of APIs (Application Programming Interfaces) used by the web application for data exchange and integration with other systems.                                                             |
