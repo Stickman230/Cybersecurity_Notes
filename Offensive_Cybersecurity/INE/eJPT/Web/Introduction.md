@@ -16,11 +16,10 @@ Web app is a good target because = gain of  personal information, financial data
 
 # Web Application Security Practices
 
-● Authentication and Authorization: Implementing robust authentication mechanisms to verify the identity of users and authorization controls to grant appropriate access privileges based on user roles.
-● Input Validation: Ensuring that all data inputs from users are validated to prevent common attacks like SQL injection and cross-site scripting (XSS).
-● Secure Communication: Using encryption protocols like HTTPS (TLS/SSL) to secure the communication between the user's browser and the web server, protecting sensitive data in transit.
-● Secure Coding Practices: Adhering to secure coding standards and practices to minimize the introduction of vulnerabilities during the development phase.
-● Regular Security Updates: Keeping the web application and its underlying software libraries up to date with the latest security patches and updates.
-● Least Privilege Principle: Assigning the minimum necessary privileges to users, processes, and systems to reduce the potential impact of a security breach.
+● Authentication and Authorization
+● Input Validation = prevent common attacks like SQL injection and cross-site scripting (XSS).
+● Secure Communication: Using encryption protocols like HTTPS (TLS/SSL) 
+● Secure Coding Practices
+● Least Privilege Principle
 ● Web Application Firewalls (WAF): Implementing a WAF to filter and monitor HTTP requests, blocking malicious traffic and protecting against known attack patterns.
 ● Session Management: Implementing secure session handling to prevent session hijacking and ensure the user's identity is maintained securely throughout the session.
