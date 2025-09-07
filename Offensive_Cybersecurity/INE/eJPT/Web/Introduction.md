@@ -24,6 +24,17 @@ Web app is a good target because = gain of  personal information, financial data
 ● Web Application Firewalls (WAF): Implementing a WAF to filter and monitor HTTP requests, blocking malicious traffic and protecting against known attack patterns.
 ● Session Management
 
+### Threat vs Risk
+
+| Risk                                                                                                                                                                                                                                                                                                                                                                                                         | Threat                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <br>○ Risk is the potential for a loss or harm resulting from a threat exploiting a vulnerability in a system or organization.<br><br>○ It is a combination of the likelihood or probability of a threat occurrence and the impact or severity of the resulting adverse event.<br><br>○ Risk is often measured in terms of the likelihood of an incident happening and the potential magnitude of its impact | <br>○ A threat refers to any potential source of harm or adverse event that may exploit a vulnerability in a system or organization's security measures.<br><br>○ Threats can be human-made, such as cybercriminals, hackers, or insiders with malicious intent, or they can be natural, such as floods, earthquakes, or power outages.<br> |
+|                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                                             |
+
+# Common Threats and Risk
+
+![[common_threats.png]]
+![[Pasted image 20250907235827.png]]
 # Web Application Security Testing
 
 *Web application security testing is the process of evaluating and assessing the security aspects of web applications to identify vulnerabilities, weaknesses, and potential security risks.*
