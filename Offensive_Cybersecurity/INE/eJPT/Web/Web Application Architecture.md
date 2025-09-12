@@ -32,4 +32,28 @@ In this architecture, the web application is divided into two main components:
 ---
 # Components
 
-![[Pasted image 20250908001605.png]]
+![[we_components.png]]
+
+## Client-Side Technologies
+
+- **HTML** (Hypertext Markup Language)
+- **CSS** (Cascading Style Sheets)
+- **JavaScript** -  used to create dynamic and responsive UI elements, handle user interactions, and perform client-side validations.
+- **Cookies and Local Storage** - often used for session management and remembering user preferences.
+
+## Server-Side Technologies
+
+- **Web Server** - (Apache2, Nginx, Microsoft IIS etc)
+- **Application Server** - The application server runs the business logic of the web application. It processes user requests, accesses databases, and performs computations to generate dynamic content that the web server can serve to clients.
+- **Database Server** - (MySQL, PostgreSQL, MSSQL, Oracle etc)
+- **Server-side Scripting Languages** - (e.g., PHP, Python, Java, Ruby) are used to handle server-side processing. They interact with databases, perform validations, and generate dynamic content before sending it to the client.
+
+
+
+
+
+#### Definitions
+
+***Data interchange*** : It refers to the process of exchanging data between different computer systems or applications, allowing them to communicate and share information.
+					- *Data interchange involves the conversion of data from one format to another, making it compatible with the receiving system*.
+					- *This ensures that data can be interpreted and utilized correctly by the recipient, regardless of the differences in their data structures, programming languages, or operating systems.*
