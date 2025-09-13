@@ -61,4 +61,12 @@ meterpreter> /bin/bash -i # Convert to interactive bash session
 
 The SMB protocol utilizes **two levels of authentication**, namely:
 - **User authentication** - Users must provide a username and password in order to authenticate with the SMB server in order to access a share.
-- Share authentication - Users must provide a password in order to access restricted share.
+- **Share authentication** - Users must provide a password in order to access restricted share.
+![[SMB Authentication.png]]
+
+# Exploiting with psexec.py
+
+1. Check out [[Enumeration]] for more info on discovering user accounts.
+2.  `psexec.py USER@IP SHELL_TYPE` 
+==EX== : `psexec.py Administrator@10.101.12.11 cmd.exe`
+
