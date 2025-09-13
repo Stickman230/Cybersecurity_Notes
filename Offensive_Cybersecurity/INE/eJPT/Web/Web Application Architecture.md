@@ -48,12 +48,30 @@ In this architecture, the web application is divided into two main components:
 - **Database Server** - (MySQL, PostgreSQL, MSSQL, Oracle etc)
 - **Server-side Scripting Languages** - (e.g., PHP, Python, Java, Ruby) are used to handle server-side processing. They interact with databases, perform validations, and generate dynamic content before sending it to the client.
 
+## Data interchange
+
+It refers to the process of exchanging data between different computer systems or applications, allowing them to communicate and share information.
+- *Data interchange involves the conversion of data from one format to another, making it compatible with the receiving system*.
+- *This ensures that data can be interpreted and utilized correctly by the recipient, regardless of the differences in their data structures, programming languages, or operating systems.*
+- **Using APIs* in JSON or XML formats**
+#### REST (Representational State Transfer) 
+REST is a software architectural style that uses standard HTTP methods (GET, POST, PUT, DELETE) for data interchange. It is widely used for creating web APIs that allow applications to interact and exchange data over the internet.
+#### SOAP (Simple Object Access Protocol)
+SOAP is a protocol for exchanging structured information in the implementation of web services. It uses XML as the data interchange format and provides a standardized method for communication between different systems.
+
+## External Technologies
+- **Content Delivery Networks (CDNs)** - CDNs (*like Cloudflare*) are used to <u>distribute static content</u> (e.g., images, CSS files, JavaScript libraries) to multiple servers located worldwide, improving the web application's performance and reliability.
+- Third-Party Libraries and Frameworks - Web applications often leverage third-party libraries and frameworks to speed up development and access advanced features.
+
+---
+![[redering_webpages.png]]
+
+
+
 
 
 
 
 #### Definitions
-
-***Data interchange*** : It refers to the process of exchanging data between different computer systems or applications, allowing them to communicate and share information.
-					- *Data interchange involves the conversion of data from one format to another, making it compatible with the receiving system*.
-					- *This ensures that data can be interpreted and utilized correctly by the recipient, regardless of the differences in their data structures, programming languages, or operating systems.*
+- **SSL**  -  (Secure Socket Layer) 
+- **TLS**  - (Transport Layer Security)
