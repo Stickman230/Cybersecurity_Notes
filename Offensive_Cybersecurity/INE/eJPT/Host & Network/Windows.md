@@ -97,3 +97,15 @@ Connect via **xfreerdp** : `xfreerdp /u:[username] /p:[password] /v:[ip_address]
 2. `use auxiliary/scanner/rdp/rdp_scanner` to confirm RDP port and version
 3. start brute force : `hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt rdp://demo.ine.local -s 3333`
 4. connect to host using **xfreerdp**
+
+---
+# WinRM
+
+Windows Remote Management (WinRM) is a Windows remote management protocol that can be used to facilitate remote access with Windows systems over HTTP(S).
+
+- WinRM typically uses TCP **port 5985 and 5986 (HTTPS)**.
+
+Used to :
+*○ Remotely access and interact with Windows hosts on a local network.*
+*○ Remotely access and execute commands on Windows systems.*
+*○ Manage and configure Windows systems remotely.*
