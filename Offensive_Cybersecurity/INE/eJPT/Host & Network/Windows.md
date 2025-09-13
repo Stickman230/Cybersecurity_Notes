@@ -31,11 +31,12 @@
 - WebDAV runs on top Microsoft IIS on **ports 80/443.**
 - In order to connect to a WebDAV server, you will need to <u>provide legitimate credentials</u>. This is because WebDAV implements authentication in the form of a username and password
 
-davtest - Used to scan, authenticate and exploit a WebDAV server.
-+ Pre-installed on most offensive penetration testing distributions like Kali
-and Parrot OS.
-● cadaver - cadaver supports file upload, download, on-screen display, in-
-place editing, namespace operations (move/copy), collection creation and
-deletion, property manipulation, and resource locking on WebDAV servers.
-+ Pre-installed on most offensive penetration testing distributions like Kali
-and Parrot OS
+#### Tools
+
+- **davtest** - Used to scan, authenticate and exploit a WebDAV server.
+- **cadaver** - cadaver supports file upload, download, on-screen display, in-place editing, namespace operations (move/copy), collection creation and deletion, property manipulation, and resource locking on WebDAV servers.
+
+[[Vulnerability Assessment & Analysis & Scanning]]
+
+#### Exploiting with Metasploit
+
