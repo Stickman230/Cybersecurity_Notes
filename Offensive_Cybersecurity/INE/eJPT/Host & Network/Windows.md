@@ -10,10 +10,12 @@
 ● **Privilege escalation** - Vulnerability that allows an attacker to elevate their privileges after initial compromise.
 ● **Denial of Service (DOS)** - Vulnerability that allows an attacker to consume a system/host’s resources (CPU, RAM, Network etc) consequently preventing the system from functioning normally.
 
+---
 # Frequently Exploited Services
 
 ![[Frequently Exploited Windows Services.png]]
 
+---
 # Microsoft IIS
 
 *IIS can be used to host both static and dynamic web pages developed in ASP.NET and PHP.*
@@ -25,6 +27,7 @@
 	+ .config
 	+ .php
 
+---
 # WebDAV
 
 *WebDAV essentially enables a web server to function as a file server for collaborative authoring.*
@@ -40,3 +43,22 @@
 
 #### Exploiting with Metasploit
 
+1. Nmap the services
+2. davtest the /webdav/ path
+3. Metasploit `use exploit/windows/iis/iis_webdav_upload_asp`
+4. Set the options 
+5. get meterpreter 
+6. Spawn shell session so we get usual commands
+```bash
+meterpreter> shell   # Spawn normal shell
+meterpreter> /bin/bash -i # Convert to interactive bash session
+```
+
+---
+# SMB
+
+*SMB uses port 445 (TCP). However, originally, SMB ran on top of NetBIOS using port 139.*
+
+The SMB protocol utilizes **two levels of authentication**, namely:
+- **User authentication** - Users must provide a username and password in order to authenticate with the SMB server in order to access a share.
+- Share authentication - Users must provide a password in order to access restricted share.
