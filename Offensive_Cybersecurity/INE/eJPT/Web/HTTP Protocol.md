@@ -7,6 +7,8 @@
 # HTTP Methods
 
 ![[HTTP_methods.png]]
+
+---
 # HTTP Request Structure
 
 ### Request Line
@@ -26,8 +28,23 @@
 ### Request Body (Optional)
 *Some HTTP methods (like POST or PUT) include a request body where data is sent to the server, typically in JSON or form data format.*
 
-# HTTP Respons
+---
 
+# HTTP Response Structure
+
+### Request Headers
+*Common headers include:*
+○ **Content-Type**: The media type of the response content (e.g., text/html,application/json).
+○ **Content-Length**: The size of the response body in bytes.
+○ **Set-Cookie**: Used to set cookies on the client-side for subsequent requests.
+○ **Cache-Contro**l: Directives for caching behavior.
+
+### Response Body (Optional)
+*The response body contains the actual content of the response. For example, in the case of an HTML page, the response body will contain the HTML markup.*
+
+### Cache Control Header
+
+![[cache_control.png]]
 
 ---
 # HTTP Request special characters
