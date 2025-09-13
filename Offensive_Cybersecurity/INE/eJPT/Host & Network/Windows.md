@@ -2,6 +2,12 @@
 
 *Microsoft Windows is the dominant operating system worldwide with a market share >=70% as of 2021.*
 
+
+| COMMAND    | FUNCTION                             |
+| ---------- | ------------------------------------ |
+| *xfreerdp* | connect remotely to a windows system |
+
+
 # Common Windows Vulnerabilities
 
 ● **Information disclosure** - Vulnerability that allows an attacker to access confidential data.
@@ -64,9 +70,25 @@ The SMB protocol utilizes **two levels of authentication**, namely:
 - **Share authentication** - Users must provide a password in order to access restricted share.
 ![[SMB Authentication.png]]
 
-# Exploiting with psexec.py
+#### Exploiting with psexec.py
 
 1. Check out [[Enumeration]] for more info on discovering user accounts.
 2.  `psexec.py USER@IP SHELL_TYPE` 
-==EX== : `psexec.py Administrator@10.101.12.11 cmd.exe`
+==EX== : psexec.py Administrator@10.101.12.11 cmd.exe
 
+OR
+
+#### Exploiting with Metasploit
+1. Check out [[Enumeration]] for more info on discovering user accounts.
+2. use `msf6 exploit(windows/smb/psexec)`
+
+---
+
+# RDP
+
+*The Remote Desktop Protocol (RDP) is a proprietary GUI remote access protocol developed by Microsoft and is used to remotely connect and interact with a Windows system.*
+- RDP uses TCP port 3389 by default, and can also be configured to run on any other TCP port.
+- We can perform an RDP brute-force attack to identify legitimate user credentials that we can use to gain remote access to the target system.
+
+Connect via **xfreerdp** : `xfreerdp /u:[username] /p:[password] /v:[ip_address]`
+#### Exploiting 
