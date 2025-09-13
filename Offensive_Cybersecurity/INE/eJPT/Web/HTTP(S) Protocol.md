@@ -47,5 +47,15 @@
 ![[cache_control.png]]
 
 ---
+# HTTPS
+*HTTPS (Hypertext Transfer Protocol Secure) is a secure version of the HTTP protocol*
+
+Advantages:
+- **Encryption of Data in Transit** - *When data is sent over an HTTPS connection, it is encrypted using strong cryptographic algorithms*. This ensures that even if an attacker intercepts the data while it's in transit, <u>they cannot decipher or read its contents</u>.
+- **Protection Against Eavesdropping** - HTTPS prevents unauthorized parties from eavesdropping on the data exchanged between the user's browser and the web server. This is particularly *crucial when users input sensitive information, such as login credentials, credit card numbers, or personal details*.
+
+![[HTTPS.png]]
+
+---
 # HTTP Request special characters
 ![[carriage_return&linefeeds.png]]
