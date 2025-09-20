@@ -1,12 +1,13 @@
 #eJPT #INE #Windows #PrivEsc
 
 
-| COMMAND                         | FUNCTION                        |
-| ------------------------------- | ------------------------------- |
-| *getpriv*                       | Show priviledge of current user |
-| *getuid*                        | Show username                   |
-| *net users*                     | show user accounts              |
-| *net localgroup administrators* | show users in admin group       |
+| COMMAND                               | FUNCTION                                     |
+| ------------------------------------- | -------------------------------------------- |
+| *getpriv*                             | (METASPLOIT) Show priviledge of current user |
+| *getuid*                              | (METASPLOIT) Show username                   |
+| *net users*                           | show user accounts                           |
+| *net localgroup administrators*       | show users in admin group                    |
+| *certutils -urlcache -f  http://*ULR* | download file from http server windows       |
 
 # Windows Kernel
 
@@ -129,3 +130,16 @@ SAM (Security Account Manager) is a database file that is responsible for managi
 + **Allows the use of symbols and unicode characters.**
 
 ![[NTLM_HASH.png]]
+
+---
+# Windows configuration files
+
+*Windows can automate a variety of repetitive tasks, such as the mass rollout or installation of Windows on many systems.*
+
+This is typically done through the use of the **Unattended Windows Setup utility**
+
+The Unattended Windows Setup utility will typically utilize one of the following configuration files that contain user account and system configuration information:
+- C:\Windows\Panther\Unattend.xml
+- C:\Windows\Panther\Autounattend.xml
+
+● As a security precaution, *the passwords stored in the Unattended Windows Setup configuration file may be encoded in base64*.
