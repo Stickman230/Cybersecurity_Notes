@@ -1,11 +1,12 @@
 #eJPT #INE #Windows #PrivEsc
 
 
-| COMMAND   | FUNCTION                        |
-| --------- | ------------------------------- |
-| *getpriv* | Show priviledge of current user |
-| *getuid*  | Show username                   |
-| net users | show user accounts              |
+| COMMAND                         | FUNCTION                        |
+| ------------------------------- | ------------------------------- |
+| *getpriv*                       | Show priviledge of current user |
+| *getuid*                        | Show username                   |
+| *net users*                     | show user accounts              |
+| *net localgroup administrators* | show users in admin group       |
 
 # Windows Kernel
 
