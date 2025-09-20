@@ -2,7 +2,6 @@
 
 *Microsoft Windows is the dominant operating system worldwide with a market share >=70% as of 2021.*
 
-
 | COMMAND    | FUNCTION                             |
 | ---------- | ------------------------------------ |
 | *xfreerdp* | connect remotely to a windows system |
