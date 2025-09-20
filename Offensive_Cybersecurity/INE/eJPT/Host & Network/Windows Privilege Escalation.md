@@ -1,13 +1,15 @@
 #eJPT #INE #Windows #PrivEsc
 
 
-| COMMAND                               | FUNCTION                                     |
-| ------------------------------------- | -------------------------------------------- |
-| *getpriv*                             | (METASPLOIT) Show priviledge of current user |
-| *getuid*                              | (METASPLOIT) Show username                   |
-| *net users*                           | show user accounts                           |
-| *net localgroup administrators*       | show users in admin group                    |
-| *certutils -urlcache -f  http://*ULR* | download file from http server windows       |
+| COMMAND                              | FUNCTION                                     |
+| ------------------------------------ | -------------------------------------------- |
+| *getpriv*                            | (METASPLOIT) Show priviledge of current user |
+| *getuid*                             | (METASPLOIT) Show username                   |
+| *net users*                          | show user accounts                           |
+| *net localgroup administrators*      | show users in admin group                    |
+| *certutils -urlcache -f  http://*ULR | download file from http server windows       |
+| *powershell -ep bypass*<br>          | bypass execution policy for scripts          |
+|                                      |                                              |
 
 # Windows Kernel
 
@@ -131,6 +133,7 @@ SAM (Security Account Manager) is a database file that is responsible for managi
 
 ![[NTLM_HASH.png]]
 
+## Dumping Hashes with Mimikatz
 ---
 # Windows configuration files
 
@@ -143,3 +146,9 @@ The Unattended Windows Setup utility will typically utilize one of the following
 - C:\Windows\Panther\Autounattend.xml
 
 ● As a security precaution, *the passwords stored in the Unattended Windows Setup configuration file may be encoded in base64*.
+
+#### (TOOL) PowerUp powershell
+
+*PowerUp aims to be a clearinghouse of common Windows privilege escalation vectors that rely on misconfigurations.*
+
+https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1
