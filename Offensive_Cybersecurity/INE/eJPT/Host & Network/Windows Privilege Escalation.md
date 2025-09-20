@@ -38,3 +38,14 @@ A **non-privileged user attempting to execute a program with elevated privileges
 #### (TOOL) UACMe 
 - It is an open source, robust privilege escalation tool developed by @hfire0x. It can be used to bypass Windows UAC by leveraging various techniques.
 - GitHub: https://github.com/hfiref0x/UACME
+
+#### Using UACMe
+
+1. Get a meterpreter session.
+2. Upload reverse shell payload and Akagi32.exe
+3. Call back to you using Metasploit multi/handler listener and executing akagi32.exe
+4. Migrate to NT/authority system process
+
+---
+# Windows Access Token 
+
