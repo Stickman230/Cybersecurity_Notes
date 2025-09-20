@@ -60,3 +60,14 @@ This token is **then attached to the userinit.exe process**, after which all chi
 An access token will typically be assigned one of the following security levels: 
 - **Impersonate-level tokens** are created as a direct result of a non-interactive login on Windows, typically through specific system services or domain logons.
 - **Delegate-level tokens** are typically created through an interactive login on Windows, primarily through a traditional login or through remote access protocols such as RDP.
+*Delegate-level tokens pose the largest threat*
+
+The following are the privileges that are required for a successful impersonation attack:
+- **SeAssignPrimaryToken**: This allows a user to impersonate tokens.
+- **SeCreateToken**: This allows a user to create an arbitrary token with administrative privileges.
+- **SeImpersonatePrivilege**: This allows a user to create a process under the security context of another user typically with administrative privileges.
+
+#### Access Token Impersonation
+
+1. Get a meterpreter session exploiting vulnerable service ( `use exploit/windows/http/rejetto_hfs_exec`)
+2. load incognito
