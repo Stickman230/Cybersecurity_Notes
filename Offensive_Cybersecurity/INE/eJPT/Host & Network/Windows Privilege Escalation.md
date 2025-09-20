@@ -92,4 +92,40 @@ The following are the privileges that are required for a successful impersonatio
 
 ```bash
 notepad text.txt:secret.txt
+type exploit.exe > textfile.txt:hidden_exploit.exe (make a symbolic link to the hidden executable)
 ```
+
+---
+# Windows Hashes
+
+*The Windows OS stores hashed user account passwords locally in the SAM (Security Accounts Manager) database*
+
+Authentication and verification of user credentials is facilitated by the **Local Security Authority** (LSA).
+
+- Windows versions up to Windows Server 2003 utilize two different types of hashes:
+	+ LM
+	+ NTLM
+
+*Windows disables LM hashing and utilizes NTLM hashing from Windows Vista onwards.*
+
+## SAM
+
+SAM (Security Account Manager) is a database file that is responsible for managing user accounts and passwords on Windows. All user account passwords stored in the SAM database are hashed.
+
+● The **SAM database file cannot be copied while the operating system is running.**
+● The Windows NT kernel keeps the SAM database file locked and as a result, attackers typically **utilize in-memory techniques and tools to dump SAM hashes from the LSASS process**.
+● *In modern versions of Windows, the SAM database is encrypted with a syskey.*
+
+**Elevated/Administrative privileges are required in order to access and interact with the LSASS process.**
+
+## NTLM hashing
+
+*NTLM is a collection of authentication protocols that are utilized in Windows to facilitate authentication between computers. The authentication process involves using a valid username and password to authenticate successfully.*
+
+● When a user account is created, it is encrypted using the MD4 hashing algorithm, while the original password is disposed of.
+● NTLM improves upon LM in the following ways:
++ **Does not split the hash in to two chunks.**
++ **Case sensitive.**
++ **Allows the use of symbols and unicode characters.**
+
+![[NTLM_HASH.png]]
