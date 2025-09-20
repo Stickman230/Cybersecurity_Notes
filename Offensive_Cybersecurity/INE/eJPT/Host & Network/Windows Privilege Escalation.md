@@ -134,6 +134,25 @@ SAM (Security Account Manager) is a database file that is responsible for managi
 ![[NTLM_HASH.png]]
 
 ## Dumping Hashes with Mimikatz
+
+*Mimikatz is a Windows post-exploitation tool written by Benjamin Delpy (@gentilkiwi). It allows for the extraction of clear-text passwords, hashes and Kerberos tickets from memory*
+
+- Mimikatz can be used to extract hashes from the lsass.exe process memory
+
+We can utilize the **pre-compiled mimikatz executable**, alternatively, if we have access to a meterpreter session on a Windows target, we can utilize the inbuilt **meterpreter extension Kiwi.**
+
+#### Using Mimikatz
+
+1. metasploit baddblue_passthru
+2. get NT/Authority system acess (migrate process)
+3. load kiwi
+4. `creds_all, lsa_dump_sam, lsa_dump_secrets`
+5. grab syskey to decrypt SAM DB
+
+OR
+
+1. Upload mimikatz to target via meterpreter session
+
 ---
 # Windows configuration files
 
