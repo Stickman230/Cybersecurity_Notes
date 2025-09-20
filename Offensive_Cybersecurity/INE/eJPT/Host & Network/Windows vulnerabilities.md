@@ -7,7 +7,6 @@
 | ---------- | ------------------------------------ |
 | *xfreerdp* | connect remotely to a windows system |
 
-
 # Common Windows Vulnerabilities
 
 ● **Information disclosure** - Vulnerability that allows an attacker to access confidential data.
