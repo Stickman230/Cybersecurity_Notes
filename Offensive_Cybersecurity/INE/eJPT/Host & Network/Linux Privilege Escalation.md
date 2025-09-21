@@ -56,4 +56,5 @@ All the **encrypted passwords for the users** are stored in the shadow file. it 
 
 #### Exploiting with Metasploit
 
-1. once you have access to the target use `use post/linux/gather/hashdump`
+1. Once you have access to the target use `use post/linux/gather/hashdump` and grab user hashes
+2. Use hashcat corresponding mode [[https://hashcat.net/wiki/doku.php?id=example_hashes|Exemple hashes]] or use `use auxiliary/analyze/crack_linux`

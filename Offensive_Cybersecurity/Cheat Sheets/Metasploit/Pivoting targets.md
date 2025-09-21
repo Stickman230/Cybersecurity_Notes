@@ -42,5 +42,5 @@ meterpreter> background
 msf> search portscan
 msf> use auxiliary/scanner/portscan/tcp
 msf> set RHOST NEW_TARGET_ON_NEW_SUBNET
-mssf> run
+msf> run
 ```

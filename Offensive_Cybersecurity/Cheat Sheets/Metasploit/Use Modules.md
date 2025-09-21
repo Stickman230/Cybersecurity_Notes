@@ -30,7 +30,7 @@ msf> run or exploit
 
 6. Check if session created and info about victim
 ```bash
-meterpreter> sysinfo
+meterpreter> sysinfo (if you get cmd shell you can upgrate to meterpreter by runing (sessions -u ID))
 ```
 
 7. Upload local file to remote host
