@@ -17,6 +17,9 @@
 #### Exploiting Cron jobs
 - **Targeting Cron jobs that have been configured to be run as the “root” user**
 
+1. Check out crontab file `crontab -l`
+2. check out weird files and paths related to them `find / -name FILE 2>/dev/null`
+
 ---
 # SUID Binaries
 
@@ -30,3 +33,8 @@
 *The success of our attack will depend on the following factors*:
 - Owner of the SUID binary – Given that we are attempting to elevate our privileges, we will only be exploiting SUID binaries that are owned by the “root” user or other privileged users.
 - Access permissions – We will require executable permissions in order to execute the SUID binary.
+
+1. Identify file with SUID Bit set `sudo find / -perm -4000 -type f 2>/dev/null`
+2. See if SUID file calls modifiable file 
+3. Modify file to spawn a elevated shell 
+4. (Check out GTFOBins [[https://gtfobins.github.io/|GTFOBins]])
