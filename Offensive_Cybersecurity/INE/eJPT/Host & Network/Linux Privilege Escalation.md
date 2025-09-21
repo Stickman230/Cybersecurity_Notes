@@ -40,7 +40,7 @@
 
 1. Identify file with SUID Bit set `sudo find / -perm -4000 -type f 2>/dev/null`
 2. See if SUID file calls modifiable file 
-3. Modify file to spawn a elevated shell 
+3. Modify file to spawn a elevated shell (`cp /bin/bash greetings`)
 4. (Check out GTFOBins [[https://gtfobins.github.io/|GTFOBins]])
 
 ---
