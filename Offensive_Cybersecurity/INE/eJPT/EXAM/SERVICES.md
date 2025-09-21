@@ -1,3 +1,9 @@
+192.168.100.55   WINSERVER-03     <server>  <unknown>        02:2a:cb:0b:8d:55
+192.168.100.50   WINSERVER-01     <server>  <unknown>        02:12:e1:99:ee:8b
+192.168.100.52   IP-192-168-100-  <server>  IP-192-168-100-  00:00:00:00:00:00
+192.168.100.51   WINSERVER-02     <server>  <unknown>        02:1e:dd:a4:e0:4d
+
+
 Nmap scan report for ip-192-168-100-50.eu-central-1.compute.internal (192.168.100.50)
 Host is up (0.00066s latency).
 Not shown: 991 closed tcp ports (reset)
