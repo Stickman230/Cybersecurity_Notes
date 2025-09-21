@@ -22,4 +22,11 @@
 
 *In addition to the three main file access permissions (read, write and execute), Linux also provides users with specialized permissions that can be utilized in specific situations. One of these access permissions is the **SUID (Set Owner User ID)** permission*
 
-- This permission provides users with the ability to execute a script or binary with the permissions of the file owner as opposed to the user that is running the script
+- This permission **provides users with the ability to execute a script or binary with the permissions of the file owner** as opposed to the user that is running the script
+- if improperly configured unprivileged users can exploit misconfigurations or vulnerabilities within the binary or script to obtain an elevated session.
+
+#### Exploiting SUID Binaries
+
+*The success of our attack will depend on the following factors*:
+- Owner of the SUID binary – Given that we are attempting to elevate our privileges, we will only be exploiting SUID binaries that are owned by the “root” user or other privileged users.
+- Access permissions – We will require executable permissions in order to execute the SUID binary.
