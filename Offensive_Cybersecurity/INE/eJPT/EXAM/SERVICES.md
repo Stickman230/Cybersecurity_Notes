@@ -49,13 +49,16 @@ PORT     STATE SERVICE
 
 - *admin*
 
-22/tcp   open  ssh
+22/tcp   open  ssh -----> **ACCOUNT (dbadmin:sayang)**
 80/tcp   open  http ----> **ACCOUNT (dbadmin:sayang dbadmin@syntex.com)**
 139/tcp  open  netbios-ssn
 445/tcp  open  microsoft-ds
 3306/tcp open  mysql
 3389/tcp open  ms-wbt-server
 MAC Address: 02:A4:4B:19:5A:E9 (Unknown)
+
+**dbadmin@ip-192-168-100-52:/home/auditor$ cat flag.txt**
+**8a188d64fa234fe9b9671ba4bd6e11e4**
 
 
 
