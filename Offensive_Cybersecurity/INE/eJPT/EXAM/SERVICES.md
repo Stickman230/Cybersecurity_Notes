@@ -13,10 +13,6 @@ PORT      STATE SERVICE
 139/tcp   open  netbios-ssn
 445/tcp   open  microsoft-ds
 3389/tcp  open  ms-wbt-server
-49152/tcp open  unknown
-49153/tcp open  unknown
-49154/tcp open  unknown
-49155/tcp open  unknown
 MAC Address: 02:12:E1:99:EE:8B (Unknown)
 
 
@@ -31,11 +27,6 @@ PORT      STATE SERVICE
 139/tcp   open  netbios-ssn
 445/tcp   open  microsoft-ds
 3389/tcp  open  ms-wbt-server
-49152/tcp open  unknown
-49153/tcp open  unknown
-49154/tcp open  unknown
-49155/tcp open  unknown
-49160/tcp open  unknown
 MAC Address: 02:1E:DD:A4:E0:4D (Unknown)
 
 
