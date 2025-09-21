@@ -1,7 +1,7 @@
 192.168.100.55   WINSERVER-03     
 192.168.100.50   WINSERVER-01     
-192.168.100.52   IP-192-168-100-  
-192.168.100.51   WINSERVER-02  
+192.168.100.52   IP-192-168-100-  **X**
+192.168.100.51   WINSERVER-02  **X**
 
 
 Nmap scan report for ip-192-168-100-50.eu-central-1.compute.internal (192.168.100.50)
@@ -15,7 +15,6 @@ PORT      STATE SERVICE
 3389/tcp  open  ms-wbt-server
 MAC Address: 02:12:E1:99:EE:8B (Unknown)
 
-**http://192.168.100.51/cmdasp.aspx** ->>> NT/AUTHORITY SYSTEM
 
 
 Nmap scan report for ip-192-168-100-51.eu-central-1.compute.internal (192.168.100.51)
@@ -35,7 +34,7 @@ PORT      STATE SERVICE            VERSION
 49160/tcp open  msrpc              Microsoft Windows RPC
 MAC Address: 02:1E:DD:A4:E0:4D (Unknown)
 
-
+**http://192.168.100.51/cmdasp.aspx** **->>> NT/AUTHORITY SYSTEM**
 
 Nmap scan report for ip-192-168-100-52.eu-central-1.compute.internal (192.168.100.52)
 Host is up (0.0044s latency).
