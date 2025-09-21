@@ -35,6 +35,10 @@
 ● SSH authentication can be configured in two ways:
 - Username & password authentication
 - Key based authentication
+
+#### Exploiting using Metasploit
+1. If libssh is used check version
+2. Use `scanner/ssh/libssh_auth_bypass`
 #### Exploiting using Hydra
 
 1. Identify SSH and version
