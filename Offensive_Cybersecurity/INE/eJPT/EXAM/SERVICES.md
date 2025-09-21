@@ -9,7 +9,7 @@ Host is up (0.00066s latency).
 Not shown: 991 closed tcp ports (reset)
 PORT      STATE SERVICE
 80/tcp    open  http
-135/tcp   open  msrpc
+135/tcp   open  msrpc   -----> **SMB LOGIN (mike:diamond)**
 139/tcp   open  netbios-ssn
 445/tcp   open  microsoft-ds
 3389/tcp  open  ms-wbt-server
@@ -50,7 +50,7 @@ PORT     STATE SERVICE
 - *admin*
 
 22/tcp   open  ssh
-80/tcp   open  http
+80/tcp   open  http ----> **ACCOUNT (dbadmin:sayang dbadmin@syntex.com)**
 139/tcp  open  netbios-ssn
 445/tcp  open  microsoft-ds
 3306/tcp open  mysql
