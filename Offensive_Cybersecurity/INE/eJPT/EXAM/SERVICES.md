@@ -15,6 +15,7 @@ PORT      STATE SERVICE
 3389/tcp  open  ms-wbt-server
 MAC Address: 02:12:E1:99:EE:8B (Unknown)
 
+**http://192.168.100.51/cmdasp.aspx** ->>> NT/AUTHORITY SYSTEM
 
 
 Nmap scan report for ip-192-168-100-51.eu-central-1.compute.internal (192.168.100.51)
