@@ -1,7 +1,7 @@
-192.168.100.55   WINSERVER-03     <server>  <unknown>        02:2a:cb:0b:8d:55
-192.168.100.50   WINSERVER-01     <server>  <unknown>        02:12:e1:99:ee:8b
-192.168.100.52   IP-192-168-100-  <server>  IP-192-168-100-  00:00:00:00:00:00
-192.168.100.51   WINSERVER-02     <server>  <unknown>        02:1e:dd:a4:e0:4d
+192.168.100.55   WINSERVER-03     
+192.168.100.50   WINSERVER-01     
+192.168.100.52   IP-192-168-100-  
+192.168.100.51   WINSERVER-02  
 
 
 Nmap scan report for ip-192-168-100-50.eu-central-1.compute.internal (192.168.100.50)
@@ -18,15 +18,20 @@ MAC Address: 02:12:E1:99:EE:8B (Unknown)
 
 
 Nmap scan report for ip-192-168-100-51.eu-central-1.compute.internal (192.168.100.51)
-Host is up (0.00088s latency).
+Host is up (0.00077s latency).
 Not shown: 989 closed tcp ports (reset)
-PORT      STATE SERVICE
-21/tcp    open  ftp -> **anonymous login**
-80/tcp    open  http
-135/tcp   open  msrpc
-139/tcp   open  netbios-ssn
-445/tcp   open  microsoft-ds
-3389/tcp  open  ms-wbt-server
+PORT      STATE SERVICE            VERSION
+21/tcp    open  ftp                Microsoft ftpd  ----> **ANONYMOUS**
+80/tcp    open  http               Microsoft IIS httpd 8.5
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ssl/ms-wbt-server?
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49160/tcp open  msrpc              Microsoft Windows RPC
 MAC Address: 02:1E:DD:A4:E0:4D (Unknown)
 
 
