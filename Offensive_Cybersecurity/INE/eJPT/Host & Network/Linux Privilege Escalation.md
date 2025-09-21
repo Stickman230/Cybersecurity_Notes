@@ -42,3 +42,18 @@
 2. See if SUID file calls modifiable file 
 3. Modify file to spawn a elevated shell 
 4. (Check out GTFOBins [[https://gtfobins.github.io/|GTFOBins]])
+
+---
+
+# Dumping Linux Hashes
+
+All of the **information for all accounts** on Linux is stored in the passwd file located in: **/etc/passwd**
+- We cannot view the passwords for the users in the passwd file because they are encrypted and the passwd file is readable by any user on the system.
+
+All the **encrypted passwords for the users** are stored in the shadow file. it can be found in the following directory: **/etc/shadow**
+- The shadow file can only be accessed and read by the root account
+![[linux_password_hashes.png]]
+
+#### Exploiting with Metasploit
+
+1. once you have access to the target use `use post/linux/gather/hashdump`
