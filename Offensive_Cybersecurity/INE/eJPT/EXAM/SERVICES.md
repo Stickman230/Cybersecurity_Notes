@@ -69,7 +69,7 @@ PORT     STATE SERVICE
 80/tcp   open  http
 135/tcp  open  msrpc
 139/tcp  open  netbios-ssn
-445/tcp  open  microsoft-ds
+445/tcp  open  microsoft-ds ----> **ACCOUNT (lawrence:computadora**)
 3389/tcp open  ms-wbt-server
 MAC Address: 02:2A:CB:0B:8D:55 (Unknown)
 
