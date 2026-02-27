@@ -1,4 +1,4 @@
-#Linux #SMB
+#Linux #SMB #Fundamentals 
 # Enable SMB network Share
 
 - Navigate to `impacket` directory using `cd /opt/impacket/examples`

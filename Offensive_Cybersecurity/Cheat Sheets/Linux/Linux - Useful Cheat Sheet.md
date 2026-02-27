@@ -1,4 +1,4 @@
-#Linux
+#Linux #Fundamentals
 
 - Redirect **stderr** to **stdout** when not accessible/ trying to debug : 
 ```bash
