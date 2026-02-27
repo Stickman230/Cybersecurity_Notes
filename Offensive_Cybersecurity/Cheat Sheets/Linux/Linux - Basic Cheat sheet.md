@@ -18,3 +18,4 @@
 |`lsusb`|Lists USB devices|
 |`lsof`|Lists opened files.|
 |`lspci`|Lists PCI devices.|
+![[HTB_Linux.png]]
