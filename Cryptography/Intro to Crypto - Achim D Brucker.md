@@ -27,4 +27,14 @@ Given prime factors you can attack the system
 - the validators has the public key to verify signing 
 
 # Hashing
-- It is not encrytion but a 
+- It is not encryption but a useful item it the encryption context
+- longitudinal redundancy checks
+
+# Cryptanalysis
+- brute force 
+- statistical analysis
+- known plaintext analysis
+- the security of the cryptographic scheme should not rely on secrecy of the algorithm
+
+# Quantum
+- quantum could break prime factorization algorithms (Shor algorithm)
