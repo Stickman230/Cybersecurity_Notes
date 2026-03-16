@@ -17,4 +17,14 @@
 - Sender has a Public key know by anyone
 - receiver has a private key
 - Everybody can encrypt --> Only receiver can decrypt
-- work on one way functions
+- work on one way functions != trapdoor one way function
+## RSA
+
+Given prime factors you can attack the system
+
+# Key signing 
+- the signer has the private key
+- the validators has the public key to verify signing 
+
+# Hashing
+- It is not encrytion but a 
