@@ -1,4 +1,4 @@
-#LDAP #ActiveDirectory #WebInjection #WEB 
+#LDAP #ActiveDirectory #WebInjection #WEB #Tools 
 ## ldapsearch
 
 - This tool allows a user to query and modify the LDAP directory from the command line, making it a valuable resource
